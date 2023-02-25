@@ -1,8 +1,8 @@
 {
 	"profiles": {
 		"default": {
-			"opengl": [ "quad.vs", "quad.gs", "quad.fs" ],
-			"vulkan": [ "quad.vsspv", "quad.gsspv", "quad.fsspv" ]
+			"opengl": [ "quad.vs", "quad.fs" ],
+			"vulkan": [ "quad.vsspv", "quad.fsspv" ]
 		}
 	}
 }

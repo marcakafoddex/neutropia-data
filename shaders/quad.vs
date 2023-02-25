@@ -1,27 +1,19 @@
 #include "tools/color.glsl"
 
-layout (location = 0) in vec4 Uvs;
-layout (location = 1/*+2+3*/) in mat3 TexMatrix;
-layout (location = 4) in vec4 Color;
-layout (location = 5) in vec2 Scale;
-layout (location = 6) in vec3 Center;
-layout (location = 7/*+8+9+10*/) in mat4 WorldMatrix;
+layout (location = 0) in vec3 Position;
+layout (location = 1) in vec2 Uv;
+layout (location = 2/*+3+4*/) in mat3 TexMatrix;
+layout (location = 5) in vec4 Color;
+layout (location = 6/*+7+8+9*/) in mat4 WorldMatrix;
 
-out VS_OUT {
-	vec4 Uvs;
-	mat3 TexMatrix;
-	vec4 Color;
-	vec2 Scale;
-	mat4 WorldMatrix;
-} vs_out;
+layout (location = 0) out vec2 vUv;
+layout (location = 1) out vec4 vColor;
+
+uniform mat4 gVP;
 
 void main()
 {
-	gl_Position	= vec4(Center, 1.0);
-	vs_out.Scale = Scale;
-	vs_out.Uvs = Uvs;
-	vs_out.TexMatrix = TexMatrix;
-	vs_out.Color = Color / 255.0;
-	vs_out.Scale = Scale;
-	vs_out.WorldMatrix = WorldMatrix;
+	gl_Position	= (gVP * WorldMatrix * vec4(Position, 1.0)).xyz;
+	vUv = (TexMatrix * Uv).xy;
+	vColor = Color / 255.0;		// comes in as byte values
 }
