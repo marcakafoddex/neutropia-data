@@ -13,7 +13,7 @@ uniform mat4 gVP;
 
 void main()
 {
-	gl_Position	= (gVP * WorldMatrix * vec4(Position, 1.0)).xyz;
-	vUv = (TexMatrix * Uv).xy;
+	gl_Position	= gVP * WorldMatrix * vec4(Position, 1.0);
+	vUv = (TexMatrix * vec3(Uv, 1.0)).xy;
 	vColor = Color / 255.0;		// comes in as byte values
 }
