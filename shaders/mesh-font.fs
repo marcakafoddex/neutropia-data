@@ -4,8 +4,8 @@ layout (location = 1) in vec4 vColor;
 layout (location = 0) out vec4 FragColor;
 
 uniform sampler2D gTexture;
-uniform vec3 gBorderColor = vec3(0, 0, 0);
-uniform vec2 gPixelScale = vec2(2, 2);
+uniform vec3 gBorderColor;
+uniform vec2 gPixelScale;		// size in screen pixels(!) of the outline on X and Y axes
 
 const float kAlphaThreshold = 0.5;
 
