@@ -6,12 +6,25 @@ layout (location = 0) out vec4 FragColor;
 uniform sampler2D gTexture;
 uniform vec3 gBorderColor;
 uniform vec2 gPixelScale;		// size in screen pixels(!) of the outline on X and Y axes
+uniform vec3 gTopColor;
+uniform vec3 gBottomColor;
+uniform float gColorSplit;		// where on the y-axis is the text split
 
 const float kAlphaThreshold = 0.5;
 
 void main()
 {
-	vec4 color = texture(gTexture, vUv) * vColor;
+	vec3 textColor;
+	if (gColorSplit >= 1.0)
+		textColor = gTopColor;
+	else if (gColorSplit <= 0.0)
+		textColor = gBottomColor;
+	else if (vUv.y <= gColorSplit)
+		textColor = gTopColor;
+	else
+		textColor = gBottomColor;		
+	vec4 color = texture(gTexture, vUv) * vColor * vec4(textColor, 1.0);
+	
 	if (color.a > kAlphaThreshold)
 		FragColor = color;
 	else {
