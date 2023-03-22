@@ -1,0 +1,115 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/mission_briefing",
+	"scale": "fit",
+	"entities": {
+		"worldCenter": [
+			{
+				"name": "translateTopLeft",
+				"x": -320,
+				"y": -180,
+				"children": [
+					{
+						"file": "briefing menu - main body.png",
+						"z": -1,
+						"anchor": [0, 0]
+					},
+					{
+						"name": "portrait1",
+						"pos": [51, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait Maggot window idle.png",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait Maggot window selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing menu - character locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+							{
+								"name": "portraitSelected",
+								"pos": [-3, -3],
+								"file": "briefing menu - character selected.png",
+								"anchor": [0, 0],
+							}
+						]
+					},
+					{
+						"name": "portrait2",
+						"pos": [99, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait Maggot window idle.png",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait Maggot window selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing menu - character locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
+					},
+					{
+						"name": "portrait3",
+						"pos": [147, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait Maggot window idle.png",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait Maggot window selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing menu - character locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
+					},
+					{
+						"name": "portrait4",
+						"pos": [195, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait Maggot window idle.png",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait Maggot window selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing menu - character locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
+					},
+					{
+						"name": "portraitRandom",
+						"pos": [243, 75],
+					},
+				]
+			},
+		],
+	}
+}

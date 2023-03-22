@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/battle1",
+	"scale": "fill",
 	"entities": {
 		"worldCenter": [
 			{
