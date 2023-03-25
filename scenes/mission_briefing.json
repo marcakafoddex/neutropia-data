@@ -1,7 +1,6 @@
 {
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/mission_briefing",
-	"scale": "fit",
 	"entities": {
 		"worldCenter": [
 			{
