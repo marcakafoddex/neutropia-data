@@ -19,12 +19,12 @@
 						"pos": [51, 75],
 						"children": [
 							{
-								"file": "../../portraits/portrait Maggot window idle.png",
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
 								"anchor": [0, 0],
 								"name": "idle",
 							},
 							{
-								"file": "../../portraits/portrait Maggot window selected.png",
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
 								"anchor": [0, 0],
 								"name": "selected",
 							},
@@ -46,12 +46,12 @@
 						"pos": [99, 75],
 						"children": [
 							{
-								"file": "../../portraits/portrait Maggot window idle.png",
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
 								"anchor": [0, 0],
 								"name": "idle",
 							},
 							{
-								"file": "../../portraits/portrait Maggot window selected.png",
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
 								"anchor": [0, 0],
 								"name": "selected",
 							},
@@ -67,12 +67,12 @@
 						"pos": [147, 75],
 						"children": [
 							{
-								"file": "../../portraits/portrait Maggot window idle.png",
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
 								"anchor": [0, 0],
 								"name": "idle",
 							},
 							{
-								"file": "../../portraits/portrait Maggot window selected.png",
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
 								"anchor": [0, 0],
 								"name": "selected",
 							},
@@ -88,12 +88,12 @@
 						"pos": [195, 75],
 						"children": [
 							{
-								"file": "../../portraits/portrait Maggot window idle.png",
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
 								"anchor": [0, 0],
 								"name": "idle",
 							},
 							{
-								"file": "../../portraits/portrait Maggot window selected.png",
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
 								"anchor": [0, 0],
 								"name": "selected",
 							},
