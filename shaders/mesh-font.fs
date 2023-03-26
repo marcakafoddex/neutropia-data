@@ -9,8 +9,9 @@ uniform vec2 gPixelScale;		// size in screen pixels(!) of the outline on X and Y
 uniform vec3 gTopColor;
 uniform vec3 gBottomColor;
 uniform float gColorSplit;		// where on the y-axis is the text split
+uniform int gHaveBorder;
 
-const float kAlphaThreshold = 0.5;
+const float kAlphaThreshold = 0.75;
 
 void main()
 {
@@ -26,27 +27,31 @@ void main()
 	vec4 color = texture(gTexture, vUv) * vColor * vec4(textColor, 1.0);
 	
 	if (color.a > kAlphaThreshold)
-		FragColor = color;
+		FragColor = vec4(textColor.rgb, 1);
 	else {
-		vec2 texSize = textureSize(gTexture, 0);
-		vec2 nextPixelUvOffset = gPixelScale / texSize;
-		if (false ||
-			// 3 pixels to our right
-			(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y						)) * vColor).a > kAlphaThreshold ||
-			(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			// 3 pixels to our left
-			(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y						)) * vColor).a > kAlphaThreshold ||
-			(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			// 2 pixels above/below
-			(texture(gTexture, vec2(vUv.x, 							vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			(texture(gTexture, vec2(vUv.x, 							vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
-			
-			false)
-			FragColor = vec4(gBorderColor, 1);
-		else
+		if (gHaveBorder == 0)
 			FragColor = vec4(0, 0, 0, 0);
+		else {
+			vec2 texSize = textureSize(gTexture, 0);
+			vec2 nextPixelUvOffset = gPixelScale / texSize;
+			if (false ||
+				// 3 pixels to our right
+				(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y						)) * vColor).a > kAlphaThreshold ||
+				(texture(gTexture, vec2(vUv.x + nextPixelUvOffset.x, 	vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				// 3 pixels to our left
+				(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y						)) * vColor).a > kAlphaThreshold ||
+				(texture(gTexture, vec2(vUv.x - nextPixelUvOffset.x, 	vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				// 2 pixels above/below
+				(texture(gTexture, vec2(vUv.x, 							vUv.y + nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				(texture(gTexture, vec2(vUv.x, 							vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
+				
+				false)
+				FragColor = vec4(gBorderColor, 1);
+			else
+				FragColor = vec4(0, 0, 0, 0);
+		}
 	}
 	
 }

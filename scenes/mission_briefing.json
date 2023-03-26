@@ -4,10 +4,12 @@
 	"fonts": {
 		"fontMain": {
 			"path": "data/fonts/good timing bd.ttf",
-			"size": 18,
+			"size": 19,
 			"scale": 1,
 			"topColor": "#f3e59e",
 			"bottomColor": "#e69e4a",
+			"borderColor": "#ff0000",
+			"haveBorder": false,
 			"split" : 0.55,
 		},
 	},
@@ -115,7 +117,7 @@
 			{
 				"textKey": "newrun.title_character",
 				"textFont": "fontMain",
-				"pos": [164, 45],
+				"pos": [164, 44],
 				"anchor": [0.5, 0.5],
 			},
 			{
