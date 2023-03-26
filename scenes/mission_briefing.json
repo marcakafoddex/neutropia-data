@@ -8,131 +8,138 @@
 			"scale": 1,
 			"topColor": "#f3e59e",
 			"bottomColor": "#e69e4a",
-			"borderColor": "#ff0000",
-			"haveBorder": false,
 			"split" : 0.55,
+			"border": false,
+			"borderColor": "#ff0000",
+			"shadow": true,
+			"shadowColor": "#000000",
+			"shadowOffset": [0, 2],
 		},
 	},
 	"entities": {
 		"worldTopLeft": [
 			{
 				"file": "briefing_menu_main_body.png",
-				"z": -1,
 				"anchor": [0, 0]
 			},
 			{
-				"name": "portrait1",
-				"pos": [51, 75],
+				"name": "baseUp",
+				"z": 10,
 				"children": [
 					{
-						"file": "../../portraits/portrait_Maggot_window_idle.gif",
-						"anchor": [0, 0],
-						"name": "idle",
+						"name": "portrait1",
+						"pos": [51, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing_menu_character_locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+							{
+								"name": "portraitSelected",
+								"pos": [-3, -3],
+								"file": "briefing_menu_character_selected.png",
+								"anchor": [0, 0],
+							}
+						]
 					},
 					{
-						"file": "../../portraits/portrait_Maggot_window_selected.png",
-						"anchor": [0, 0],
-						"name": "selected",
+						"name": "portrait2",
+						"pos": [99, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing_menu_character_locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
 					},
 					{
-						"file": "briefing_menu_character_locked.png",
-						"anchor": [0, 0],
-						"name": "locked",
+						"name": "portrait3",
+						"pos": [147, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing_menu_character_locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
 					},
 					{
-						"name": "portraitSelected",
-						"pos": [-3, -3],
-						"file": "briefing_menu_character_selected.png",
+						"name": "portrait4",
+						"pos": [195, 75],
+						"children": [
+							{
+								"file": "../../portraits/portrait_Maggot_window_idle.gif",
+								"anchor": [0, 0],
+								"name": "idle",
+							},
+							{
+								"file": "../../portraits/portrait_Maggot_window_selected.png",
+								"anchor": [0, 0],
+								"name": "selected",
+							},
+							{
+								"file": "briefing_menu_character_locked.png",
+								"anchor": [0, 0],
+								"name": "locked",
+							},
+						]
+					},
+					{
+						"name": "portraitRandom",
+						"pos": [243, 75],
+					},
+					{
+						"textKey": "newrun.title_character",
+						"textFont": "fontMain",
+						"pos": [164, 44],
+						"anchor": [0.5, 0.5],
+					},
+					{
+						"textKey": "newrun.title_specializations",
+						"textFont": "fontMain",
+						"pos": [164, 238],
+						"anchor": [0.5, 0.5],
+					},
+					{
+						"textKey": "newrun.title_difficulty",
+						"textFont": "fontMain",
+						"pos": [360, 276],
 						"anchor": [0, 0],
-					}
-				]
+					},
+				],
 			},
-			{
-				"name": "portrait2",
-				"pos": [99, 75],
-				"children": [
-					{
-						"file": "../../portraits/portrait_Maggot_window_idle.gif",
-						"anchor": [0, 0],
-						"name": "idle",
-					},
-					{
-						"file": "../../portraits/portrait_Maggot_window_selected.png",
-						"anchor": [0, 0],
-						"name": "selected",
-					},
-					{
-						"file": "briefing_menu_character_locked.png",
-						"anchor": [0, 0],
-						"name": "locked",
-					},
-				]
-			},
-			{
-				"name": "portrait3",
-				"pos": [147, 75],
-				"children": [
-					{
-						"file": "../../portraits/portrait_Maggot_window_idle.gif",
-						"anchor": [0, 0],
-						"name": "idle",
-					},
-					{
-						"file": "../../portraits/portrait_Maggot_window_selected.png",
-						"anchor": [0, 0],
-						"name": "selected",
-					},
-					{
-						"file": "briefing_menu_character_locked.png",
-						"anchor": [0, 0],
-						"name": "locked",
-					},
-				]
-			},
-			{
-				"name": "portrait4",
-				"pos": [195, 75],
-				"children": [
-					{
-						"file": "../../portraits/portrait_Maggot_window_idle.gif",
-						"anchor": [0, 0],
-						"name": "idle",
-					},
-					{
-						"file": "../../portraits/portrait_Maggot_window_selected.png",
-						"anchor": [0, 0],
-						"name": "selected",
-					},
-					{
-						"file": "briefing_menu_character_locked.png",
-						"anchor": [0, 0],
-						"name": "locked",
-					},
-				]
-			},
-			{
-				"name": "portraitRandom",
-				"pos": [243, 75],
-			},
-			{
-				"textKey": "newrun.title_character",
-				"textFont": "fontMain",
-				"pos": [164, 44],
-				"anchor": [0.5, 0.5],
-			},
-			{
-				"textKey": "newrun.title_specializations",
-				"textFont": "fontMain",
-				"pos": [164, 239],
-				"anchor": [0.5, 0.5],
-			},
-			{
-				"textKey": "newrun.title_difficulty",
-				"textFont": "fontMain",
-				"pos": [360, 277],
-				"anchor": [0, 0],
-			},
-
 		],
 	}
 }

@@ -11,7 +11,7 @@ uniform vec3 gBottomColor;
 uniform float gColorSplit;		// where on the y-axis is the text split
 uniform int gHaveBorder;
 
-const float kAlphaThreshold = 0.75;
+const float kAlphaThreshold = 0.7;
 
 void main()
 {
