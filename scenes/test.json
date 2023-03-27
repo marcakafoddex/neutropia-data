@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/battle1",
+	"entities": {
+		"worldCenter": [
+			{
+				"file": "background.png",
+				"x": 0,
+				"y": 0,
+				"z": -1,
+			},
+			{
+				"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
+				"x": -64,
+				"anchor": [1, 1],
+			},
+			{
+				"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
+				"x": 64,
+				"anchor": [0, 1],
+			},
+		],
+		"worldCenterBottom": [
+			{
+				"file": "foreground.png",
+				"z": 10,
+				"anchor": [0.5, 1],
+			},
+		],
+	}
+}
