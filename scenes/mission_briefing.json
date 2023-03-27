@@ -138,6 +138,12 @@
 						"pos": [360, 276],
 						"anchor": [0, 0],
 					},
+					{
+						"textKey": "newrun.begin_game",
+						"textFont": "fontMain",
+						"pos": [575, 295],
+						"anchor": [0, 0,]
+					},
 				],
 			},
 		],
