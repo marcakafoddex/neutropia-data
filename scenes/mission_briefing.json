@@ -141,8 +141,8 @@
 					{
 						"textKey": "newrun.begin_game",
 						"textFont": "fontMain",
-						"pos": [575, 295],
-						"anchor": [0, 0,]
+						"pos": [598, 305],
+						"anchor": [0.5, 0.5],
 					},
 				],
 			},
