@@ -33,6 +33,25 @@
 			"border": false,
 			"shadow": false,
 		},
+		"characterName": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": false,
+		},
+		"characterDescription": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#0cc8b9",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
 	},
 	"entities": {
 		"worldTopLeft": [
@@ -183,6 +202,70 @@
 								"pos": [254, 128],
 								"anchor": [0, 0],
 							},
+							{
+								"name": "characterName",
+								"pos": [50, 131],
+								"children": [
+									{
+										"textKey": "character1.name",
+										"textFont": "characterName",
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character2.name",
+										"textFont": "characterName",
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character3.name",
+										"textFont": "characterName",
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character4.name",
+										"textFont": "characterName",
+										"anchor": [0, 0],
+									},
+								],
+							},
+							{
+								"description": "characterDescription",
+								"pos": [50, 151],
+								"children": [
+									{
+										"textKey": "character1.description",
+										"textFont": "characterDescription",
+										"textWrap": true,
+										"textMaxWidth": 282,
+										"textMaxLines": 2,
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character2.description",
+										"textFont": "characterDescription",
+										"textWrap": true,
+										"textMaxWidth": 282,
+										"textMaxLines": 2,
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character3.description",
+										"textFont": "characterDescription",
+										"textWrap": true,
+										"textMaxWidth": 282,
+										"textMaxLines": 2,
+										"anchor": [0, 0],
+									},
+									{
+										"textKey": "character4.description",
+										"textFont": "characterDescription",
+										"textWrap": true,
+										"textMaxWidth": 282,
+										"textMaxLines": 2,
+										"anchor": [0, 0],
+									},
+								],
+							}
 						],
 					},
 					{
