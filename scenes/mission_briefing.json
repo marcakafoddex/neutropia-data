@@ -153,6 +153,18 @@
 								"name": "portraitRandom",
 								"pos": [243, 75],
 							},
+							{
+								"name": "healthVfx",
+								"file": "briefing_menu_vfx_health.png",
+								"pos": [220, 135],
+								"anchor": [0, 0],
+							},
+							{
+								"name": "levelVfx",
+								"file": "briefing_menu_vfx_level.png",
+								"pos": [254, 128],
+								"anchor": [0, 0],
+							},
 						],
 					},
 					{
