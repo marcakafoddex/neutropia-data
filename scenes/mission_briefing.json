@@ -15,6 +15,24 @@
 			"shadowColor": "#000000",
 			"shadowOffset": [0, 2],
 		},
+		"difficulty": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+		"difficultyTagline": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#0cc8b9",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
 	},
 	"entities": {
 		"worldTopLeft": [
@@ -188,12 +206,102 @@
 								"anchor": [0, 0],
 							},
 							{
-								"textKey": "newrun.begin_game",
-								"textFont": "fontTitle",
-								"pos": [598, 305],
-								"anchor": [0.5, 0.5],
+								"name": "difficultyLeft",
+								"file": "briefing_menu_difficulty_arrow_left.png",
+								"pos": [421, 310],
+								"anchor": [0, 0],
+							},
+							{
+								"name": "difficultyRight",
+								"file": "briefing_menu_difficulty_arrow_right.png",
+								"pos": [445, 310],
+								"anchor": [0, 0],
+							},
+							{
+								"name": "difficultyDigits",
+								"pos": [437,315],
+								"children": [
+									{
+										"textKey": "newrun.difficulty1.digit",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty2.digit",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty3.digit",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty4.digit",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+								]
+							},
+							{
+								"name": "difficultyNames",
+								"pos": [437,328],
+								"children": [
+									{
+										"textKey": "newrun.difficulty1",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty2",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty3",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty4",
+										"textFont": "difficulty",
+										"anchor": [0.5, 0.5],
+									},
+								],
+							},
+							{
+								"name": "difficultyTaglines",
+								"pos": [437,340],
+								"children": [
+									{
+										"textKey": "newrun.difficulty1.tagline",
+										"textFont": "difficultyTagline",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty2.tagline",
+										"textFont": "difficultyTagline",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty3.tagline",
+										"textFont": "difficultyTagline",
+										"anchor": [0.5, 0.5],
+									},
+									{
+										"textKey": "newrun.difficulty4.tagline",
+										"textFont": "difficultyTagline",
+										"anchor": [0.5, 0.5],
+									},
+								],
 							},
 						],
+					},
+					{
+						"textKey": "newrun.begin_game",
+						"textFont": "fontTitle",
+						"pos": [598, 305],
+						"anchor": [0.5, 0.5],
 					},
 				],
 			},
