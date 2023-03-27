@@ -2,7 +2,7 @@
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/mission_briefing",
 	"fonts": {
-		"fontMain": {
+		"fontTitle": {
 			"path": "data/fonts/good timing bd.ttf",
 			"size": 19,
 			"scale": 1,
@@ -23,126 +23,165 @@
 				"anchor": [0, 0]
 			},
 			{
+				"name": "character1",
+				"file": "../../portraits/portrait_Maggot_skin_1.png",
+				"pos": [342, 10],
+				"anchor": [0, 0],
+			},
+			{
+				"name": "character2",
+				"file": "../../portraits/portrait_Maggot_skin_2.png",
+				"pos": [342, 10],
+				"anchor": [0, 0],
+			},
+			{
+				"name": "character3",
+				"file": "../../portraits/portrait_Maggot_skin_3.png",
+				"pos": [342, 10],
+				"anchor": [0, 0],
+			},
+			{
+				"name": "character4",
+				"file": "../../portraits/portrait_Maggot_skin_4.png",
+				"pos": [342, 10],
+				"anchor": [0, 0],
+			},
+			{
 				"name": "baseUp",
 				"z": 10,
 				"children": [
 					{
-						"name": "portrait1",
-						"pos": [51, 75],
+						"name": "Character",
 						"children": [
 							{
-								"file": "../../portraits/portrait_Maggot_window_idle.gif",
-								"anchor": [0, 0],
-								"name": "idle",
+								"textKey": "newrun.title_character",
+								"textFont": "fontTitle",
+								"pos": [164, 44],
+								"anchor": [0.5, 0.5],
 							},
 							{
-								"file": "../../portraits/portrait_Maggot_window_selected.png",
-								"anchor": [0, 0],
-								"name": "selected",
+								"name": "portrait1",
+								"pos": [51, 75],
+								"children": [
+									{
+										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"anchor": [0, 0],
+										"name": "idle",
+									},
+									{
+										"file": "../../portraits/portrait_Maggot_window_selected.png",
+										"anchor": [0, 0],
+										"name": "selected",
+									},
+									{
+										"file": "briefing_menu_character_locked.png",
+										"anchor": [0, 0],
+										"name": "locked",
+									},
+									{
+										"name": "portraitSelected",
+										"pos": [-3, -3],
+										"file": "briefing_menu_character_selected.png",
+										"anchor": [0, 0],
+									}
+								]
 							},
 							{
-								"file": "briefing_menu_character_locked.png",
-								"anchor": [0, 0],
-								"name": "locked",
+								"name": "portrait2",
+								"pos": [99, 75],
+								"children": [
+									{
+										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"anchor": [0, 0],
+										"name": "idle",
+									},
+									{
+										"file": "../../portraits/portrait_Maggot_window_selected.png",
+										"anchor": [0, 0],
+										"name": "selected",
+									},
+									{
+										"file": "briefing_menu_character_locked.png",
+										"anchor": [0, 0],
+										"name": "locked",
+									},
+								]
 							},
 							{
-								"name": "portraitSelected",
-								"pos": [-3, -3],
-								"file": "briefing_menu_character_selected.png",
-								"anchor": [0, 0],
-							}
-						]
+								"name": "portrait3",
+								"pos": [147, 75],
+								"children": [
+									{
+										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"anchor": [0, 0],
+										"name": "idle",
+									},
+									{
+										"file": "../../portraits/portrait_Maggot_window_selected.png",
+										"anchor": [0, 0],
+										"name": "selected",
+									},
+									{
+										"file": "briefing_menu_character_locked.png",
+										"anchor": [0, 0],
+										"name": "locked",
+									},
+								]
+							},
+							{
+								"name": "portrait4",
+								"pos": [195, 75],
+								"children": [
+									{
+										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"anchor": [0, 0],
+										"name": "idle",
+									},
+									{
+										"file": "../../portraits/portrait_Maggot_window_selected.png",
+										"anchor": [0, 0],
+										"name": "selected",
+									},
+									{
+										"file": "briefing_menu_character_locked.png",
+										"anchor": [0, 0],
+										"name": "locked",
+									},
+								]
+							},
+							{
+								"name": "portraitRandom",
+								"pos": [243, 75],
+							},
+						],
 					},
 					{
-						"name": "portrait2",
-						"pos": [99, 75],
+						"name": "Specializations",
 						"children": [
 							{
-								"file": "../../portraits/portrait_Maggot_window_idle.gif",
-								"anchor": [0, 0],
-								"name": "idle",
+								"textKey": "newrun.title_specializations",
+								"textFont": "fontTitle",
+								"pos": [164, 238],
+								"anchor": [0.5, 0.5],
 							},
-							{
-								"file": "../../portraits/portrait_Maggot_window_selected.png",
-								"anchor": [0, 0],
-								"name": "selected",
-							},
-							{
-								"file": "briefing_menu_character_locked.png",
-								"anchor": [0, 0],
-								"name": "locked",
-							},
-						]
+						],
 					},
 					{
-						"name": "portrait3",
-						"pos": [147, 75],
+						"name": "Difficulty",
 						"children": [
 							{
-								"file": "../../portraits/portrait_Maggot_window_idle.gif",
+								"textKey": "newrun.title_difficulty",
+								"textFont": "fontTitle",
+								"pos": [360, 276],
 								"anchor": [0, 0],
-								"name": "idle",
 							},
 							{
-								"file": "../../portraits/portrait_Maggot_window_selected.png",
-								"anchor": [0, 0],
-								"name": "selected",
+								"textKey": "newrun.begin_game",
+								"textFont": "fontTitle",
+								"pos": [598, 305],
+								"anchor": [0.5, 0.5],
 							},
-							{
-								"file": "briefing_menu_character_locked.png",
-								"anchor": [0, 0],
-								"name": "locked",
-							},
-						]
-					},
-					{
-						"name": "portrait4",
-						"pos": [195, 75],
-						"children": [
-							{
-								"file": "../../portraits/portrait_Maggot_window_idle.gif",
-								"anchor": [0, 0],
-								"name": "idle",
-							},
-							{
-								"file": "../../portraits/portrait_Maggot_window_selected.png",
-								"anchor": [0, 0],
-								"name": "selected",
-							},
-							{
-								"file": "briefing_menu_character_locked.png",
-								"anchor": [0, 0],
-								"name": "locked",
-							},
-						]
-					},
-					{
-						"name": "portraitRandom",
-						"pos": [243, 75],
-					},
-					{
-						"textKey": "newrun.title_character",
-						"textFont": "fontMain",
-						"pos": [164, 44],
-						"anchor": [0.5, 0.5],
-					},
-					{
-						"textKey": "newrun.title_specializations",
-						"textFont": "fontMain",
-						"pos": [164, 238],
-						"anchor": [0.5, 0.5],
-					},
-					{
-						"textKey": "newrun.title_difficulty",
-						"textFont": "fontMain",
-						"pos": [360, 276],
-						"anchor": [0, 0],
-					},
-					{
-						"textKey": "newrun.begin_game",
-						"textFont": "fontMain",
-						"pos": [598, 305],
-						"anchor": [0.5, 0.5],
+						],
 					},
 				],
 			},
