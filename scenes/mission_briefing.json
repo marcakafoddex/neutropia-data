@@ -88,6 +88,19 @@
 				"z": 10,
 				"children": [
 					{
+						"name": "Back",
+						"9slice": "briefing_menu_back_button_idle.png",
+						"9sliceCoords": [11,3,33,13],
+						"9slicePadding": [4,7,4,13],
+						"children": [
+							{
+								"textKey": "generic.back",
+								"textFont": "back",
+								"anchor": [0, 0],
+							}
+						]
+					},
+					{
 						"name": "Character",
 						"children": [
 							{
@@ -230,13 +243,13 @@
 							},
 							{
 								"description": "characterDescription",
-								"pos": [50, 151],
+								"pos": [50, 145],
 								"children": [
 									{
 										"textKey": "character1.description",
 										"textFont": "characterDescription",
 										"textWrap": true,
-										"textMaxWidth": 282,
+										"textMaxWidth": 232,
 										"textMaxLines": 2,
 										"anchor": [0, 0],
 									},
@@ -244,7 +257,7 @@
 										"textKey": "character2.description",
 										"textFont": "characterDescription",
 										"textWrap": true,
-										"textMaxWidth": 282,
+										"textMaxWidth": 232,
 										"textMaxLines": 2,
 										"anchor": [0, 0],
 									},
@@ -252,7 +265,7 @@
 										"textKey": "character3.description",
 										"textFont": "characterDescription",
 										"textWrap": true,
-										"textMaxWidth": 282,
+										"textMaxWidth": 232,
 										"textMaxLines": 2,
 										"anchor": [0, 0],
 									},
@@ -260,7 +273,7 @@
 										"textKey": "character4.description",
 										"textFont": "characterDescription",
 										"textWrap": true,
-										"textMaxWidth": 282,
+										"textMaxWidth": 232,
 										"textMaxLines": 2,
 										"anchor": [0, 0],
 									},
