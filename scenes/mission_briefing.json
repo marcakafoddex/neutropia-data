@@ -2,6 +2,19 @@
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/mission_briefing",
 	"fonts": {
+		"back": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#e2ddda",
+			"bottomColor": "#bab4b0",
+			"split" : 0.55,
+			"border": false,
+			"borderColor": "#ff0000",
+			"shadow": true,
+			"shadowColor": "#000000",
+			"shadowOffset": [0, 1],
+		},
 		"fontTitle": {
 			"path": "data/fonts/good timing bd.ttf",
 			"size": 19,
@@ -89,13 +102,16 @@
 				"children": [
 					{
 						"name": "Back",
-						"9slice": "briefing_menu_back_button_idle.png",
-						"9sliceCoords": [11,3,33,13],
-						"9slicePadding": [4,7,4,13],
+						"file": "briefing_menu_back_button_idle.png",
+						"fileMode": "9slice",
+						"pos": [2,1],
+						"9sliceCoords": [11,3,7,3],
+						"9slicePadding": [13,0,6,0],
 						"children": [
 							{
 								"textKey": "generic.back",
 								"textFont": "back",
+								"pos": [0, 0, 1],
 								"anchor": [0, 0],
 							}
 						]
