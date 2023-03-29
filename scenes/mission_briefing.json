@@ -73,28 +73,30 @@
 				"anchor": [0, 0]
 			},
 			{
-				"name": "character1",
-				"file": "../../portraits/portrait_Maggot_skin_1.png",
+				"name": "character",
 				"pos": [344, 0, -1],
-				"anchor": [0, 0],
-			},
-			{
-				"name": "character2",
-				"file": "../../portraits/portrait_Maggot_skin_2.png",
-				"pos": [344, 0, -1],
-				"anchor": [0, 0],
-			},
-			{
-				"name": "character3",
-				"file": "../../portraits/portrait_Maggot_skin_3.png",
-				"pos": [344, 0, -1],
-				"anchor": [0, 0],
-			},
-			{
-				"name": "character4",
-				"file": "../../portraits/portrait_Maggot_skin_4.png",
-				"pos": [344, 0, -1],
-				"anchor": [0, 0],
+				"children": [
+					{
+						"name": "character1",
+						"file": "../../portraits/portrait_Maggot_skin_1.png",
+						"anchor": [0, 0],
+					},
+					{
+						"name": "character2",
+						"file": "../../portraits/portrait_Maggot_skin_2.png",
+						"anchor": [0, 0],
+					},
+					{
+						"name": "character3",
+						"file": "../../portraits/portrait_Maggot_skin_3.png",
+						"anchor": [0, 0],
+					},
+					{
+						"name": "character4",
+						"file": "../../portraits/portrait_Maggot_skin_4.png",
+						"anchor": [0, 0],
+					},
+				],
 			},
 			{
 				"name": "baseUp",
@@ -253,6 +255,58 @@
 									{
 										"textKey": "character4.name",
 										"textFont": "characterName",
+										"anchor": [0, 0],
+									},
+								],
+							},
+							{
+								"name": "characterHealth",
+								"pos": [230, 131],
+								"children": [
+									{
+										"textValue": "character1.health",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character2.health",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character3.health",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character4.health",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+								],
+							},
+							{
+								"name": "characterLevel",
+								"pos": [269, 131],
+								"children": [
+									{
+										"textValue": "character1.level",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character2.level",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character3.level",
+										"textFont": "characterDescription",
+										"anchor": [0, 0],
+									},
+									{
+										"textValue": "character4.level",
+										"textFont": "characterDescription",
 										"anchor": [0, 0],
 									},
 								],
