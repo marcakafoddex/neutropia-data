@@ -106,6 +106,7 @@
 						"name": "Back",
 						"file": "briefing_menu_back_button_idle.png",
 						"fileMode": "9slice",
+						"fileCursorOver": "briefing_menu_back_button_highlighted.png",
 						"pos": [2,1],
 						"9sliceCoords": [11,3,7,3],
 						"9slicePadding": [13,0,6,0],
