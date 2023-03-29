@@ -75,25 +75,25 @@
 			{
 				"name": "character1",
 				"file": "../../portraits/portrait_Maggot_skin_1.png",
-				"pos": [342, 10],
+				"pos": [344, 0, -1],
 				"anchor": [0, 0],
 			},
 			{
 				"name": "character2",
 				"file": "../../portraits/portrait_Maggot_skin_2.png",
-				"pos": [342, 10],
+				"pos": [344, 0, -1],
 				"anchor": [0, 0],
 			},
 			{
 				"name": "character3",
 				"file": "../../portraits/portrait_Maggot_skin_3.png",
-				"pos": [342, 10],
+				"pos": [344, 0, -1],
 				"anchor": [0, 0],
 			},
 			{
 				"name": "character4",
 				"file": "../../portraits/portrait_Maggot_skin_4.png",
-				"pos": [342, 10],
+				"pos": [344, 0, -1],
 				"anchor": [0, 0],
 			},
 			{
