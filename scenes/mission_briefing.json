@@ -134,6 +134,7 @@
 								"children": [
 									{
 										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"fileUpdater": ["randomDelay", 1.0, 5.0],
 										"anchor": [0, 0],
 										"name": "idle",
 									},
@@ -161,6 +162,7 @@
 								"children": [
 									{
 										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"fileUpdater": ["randomDelay", 1.0, 5.0],
 										"anchor": [0, 0],
 										"name": "idle",
 									},
@@ -182,6 +184,7 @@
 								"children": [
 									{
 										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"fileUpdater": ["randomDelay", 1.0, 5.0],
 										"anchor": [0, 0],
 										"name": "idle",
 									},
@@ -203,6 +206,7 @@
 								"children": [
 									{
 										"file": "../../portraits/portrait_Maggot_window_idle.gif",
+										"fileUpdater": ["randomDelay", 1.0, 5.0],
 										"anchor": [0, 0],
 										"name": "idle",
 									},
