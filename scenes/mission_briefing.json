@@ -70,11 +70,12 @@
 		"worldTopLeft": [
 			{
 				"file": "briefing_menu_main_body.png",
-				"anchor": [0, 0]
+				"pos": [0, 360, 0],
+				"anchor": [0, 1]
 			},
 			{
 				"name": "character",
-				"pos": [344, 0, -1],
+				"pos": [344, 0, 1],
 				"children": [
 					{
 						"name": "character1",
@@ -475,8 +476,9 @@
 						"anchor": [0.5, 0.5],
 					},
 					{
-						"file": "briefing_menu_red_button_on.png",
-						"pos": [586,321],
+						"file": "briefing_menu_red_button_off.png",
+						"fileCursorOver": "briefing_menu_red_button_on.png",
+						"pos": [580,318,1],
 						"anchor": [0, 0],
 					}
 				],
