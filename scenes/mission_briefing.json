@@ -474,6 +474,11 @@
 						"pos": [598, 305],
 						"anchor": [0.5, 0.5],
 					},
+					{
+						"file": "briefing_menu_red_button_on.png",
+						"pos": [586,321],
+						"anchor": [0, 0],
+					}
 				],
 			},
 		],
