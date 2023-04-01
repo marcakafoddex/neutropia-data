@@ -480,7 +480,19 @@
 						"fileCursorOver": "briefing_menu_red_button_on.png",
 						"pos": [580,318,1],
 						"anchor": [0, 0],
-					}
+					},
+					{
+						"file": "briefing_menu_bio_idle.png",
+						"fileCursorOver": "briefing_menu_bio_highlighted.png",
+						"pos": [609, 24],
+						"anchor": [0, 0],
+					},
+					{
+						"file": "briefing_menu_skin_table_idle.png",
+						"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
+						"pos": [609, 55],
+						"anchor": [0, 0],
+					},
 				],
 			},
 		],
