@@ -20,10 +20,10 @@
 				"anchor": [0, 1],
 			},
 		],
-		"worldCenterBottom": [
+		"worldTopLeft": [
 			{
 				"file": "foreground.png",
-				"z": 10,
+				"pos": [320,360,10],
 				"anchor": [0.5, 1],
 			},
 		],
