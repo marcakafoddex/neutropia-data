@@ -1,0 +1,17 @@
+
+
+---------------------------------
+
+Specs
+
+	idle: #00766e
+
+	hover: 86fff8
+
+	selected (blue): 0fe3d7
+
+	selected v2 (light orange): ffd38d
+
+	selected v2 (dark orange): fe9255z
+
+---------------------------------
