@@ -2,7 +2,7 @@
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/battle1",
 	"entities": {
-		"worldCenter": [
+		"center": [
 			{
 				"file": "background.png",
 				"x": 0,
@@ -20,7 +20,7 @@
 				"anchor": [0, 1],
 			},
 		],
-		"worldTopLeft": [
+		"origin": [
 			{
 				"file": "foreground.png",
 				"pos": [320,360,10],
