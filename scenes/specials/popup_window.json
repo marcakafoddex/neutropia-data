@@ -1,0 +1,54 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/ui",
+	"fonts": {
+		"title": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffb573",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+		"text": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+	},
+	"entities": {
+		"origin": [
+			{
+				"name": "Background",
+				"file": "popup_window.png",
+				"fileMode": "9slice",
+				"9sliceCoords": [4,4,4,4],
+				"9slicePadding": [6,6,6,6],
+				"children": [
+					{
+						"name": "Title",
+						"textValue": "Title",
+						"textFont": "title",
+						"anchor": [0, 0],
+						"z": 1,
+					},
+					{
+						"name": "Text",
+						"textValue": "Text",
+						"textFont": "text",
+						"textWrap": true,
+						"textMaxWidth": 240,
+						"pos": [0, 18],
+						"anchor": [0, 0],
+						"z": 1,
+					},
+				],
+			},
+		],
+	}
+}

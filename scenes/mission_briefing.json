@@ -110,13 +110,13 @@
 				],
 			},
 			{
-				"name": "popupBase",
-				"pos": [335, 33, 1],
-			},
-			{
 				"name": "baseUp",
 				"z": 10,
 				"children": [
+					{
+						"name": "popupBase",
+						"pos": [335, 33, 1],
+					},
 					{
 						"name": "Back",
 						"file": "briefing_menu_back_button_idle.png",
@@ -539,6 +539,7 @@
 						"anchor": [0, 0],
 					},
 					{
+						"name": "showBio",
 						"file": "briefing_menu_bio_idle.png",
 						"fileCursorOver": "briefing_menu_bio_highlighted.png",
 						"pos": [609, 24, 1],
