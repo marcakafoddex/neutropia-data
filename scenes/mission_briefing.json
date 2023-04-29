@@ -551,6 +551,21 @@
 						"pos": [609, 55, 1],
 						"anchor": [0, 0],
 					},
+					{
+						"name": "tooltiparea.character",
+						"pos": [40, 62],
+						"hitboxSize": [250, 118],
+					},
+					{
+						"name": "tooltiparea.specialization",
+						"pos": [32, 257],
+						"hitboxSize": [266, 92],
+					},
+					{
+						"name": "tooltiparea.difficulty",
+						"pos": [353, 306],
+						"hitboxSize": [165, 43],
+					},
 				],
 			},
 		],
