@@ -546,10 +546,22 @@
 						"anchor": [0, 0],
 					},
 					{
+						"textKey": "newrun.bio",
+						"textFont": "characterDescription",
+						"pos": [621, 46, 2],
+						"anchor": [0.5, 0.5],
+					},
+					{
 						"file": "briefing_menu_skin_table_idle.png",
 						"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
 						"pos": [609, 55, 1],
 						"anchor": [0, 0],
+					},
+					{
+						"textKey": "newrun.skin",
+						"textFont": "characterDescription",
+						"pos": [621, 83, 2],
+						"anchor": [0.5, 0.5],
 					},
 					{
 						"name": "tooltiparea.character",
