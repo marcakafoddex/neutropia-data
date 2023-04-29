@@ -27,10 +27,10 @@ void main()
 	vec4 color = texture(gTexture, vUv) * vColor * vec4(textColor, 1.0);
 	
 	if (color.a > kAlphaThreshold)
-		FragColor = vec4(textColor.rgb, 1);
+		FragColor = vec4(textColor.rgb, 1.0);
 	else {
 		if (gHaveBorder == 0)
-			FragColor = vec4(0, 0, 0, 0);
+			FragColor = vec4(0.0, 0.0, 0.0, 0.0);
 		else {
 			vec2 texSize = textureSize(gTexture, 0);
 			vec2 nextPixelUvOffset = gPixelScale / texSize;
@@ -48,9 +48,9 @@ void main()
 				(texture(gTexture, vec2(vUv.x, 							vUv.y - nextPixelUvOffset.y	)) * vColor).a > kAlphaThreshold ||
 				
 				false)
-				FragColor = vec4(gBorderColor, 1);
+				FragColor = vec4(gBorderColor, 1.0);
 			else
-				FragColor = vec4(0, 0, 0, 0);
+				FragColor = vec4(0.0, 0.0, 0.0, 0.0);
 		}
 	}
 	
