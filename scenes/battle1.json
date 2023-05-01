@@ -2,25 +2,24 @@
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/battle1",
 	"entities": {
-		"center": [
+		"origin": [
 			{
 				"file": "background.png",
-				"x": 0,
-				"y": 0,
+				"anchor": [0, 0],
 				"z": -1,
 			},
 			{
 				"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
-				"x": -64,
-				"anchor": [1, 1],
+				"x": 128,
+				"y": 190,
+				"anchor": [0.5, 1],
 			},
 			{
 				"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
-				"x": 64,
-				"anchor": [0, 1],
+				"x": 512,
+				"y": 190,
+				"anchor": [0.5, 1],
 			},
-		],
-		"origin": [
 			{
 				"file": "foreground.png",
 				"pos": [320,360,10],
