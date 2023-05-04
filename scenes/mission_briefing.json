@@ -76,510 +76,508 @@
 			"shadow": false,
 		},
 	},
-	"entities": {
-		"origin": [
-			{
-				"file": "briefing_menu_main_body.png",
-				"pos": [0, 360, 0],
-				"anchor": [0, 1]
-			},
-			{
-				"name": "character",
-				"pos": [344, 0, 1],
-				"children": [
-					{
-						"name": "character1",
-						"file": "../../portraits/portrait_Maggot_skin_1.png",
-						"anchor": [0, 0],
-					},
-					{
-						"name": "character2",
-						"file": "../../portraits/portrait_Maggot_skin_2.png",
-						"anchor": [0, 0],
-					},
-					{
-						"name": "character3",
-						"file": "../../portraits/portrait_Maggot_skin_3.png",
-						"anchor": [0, 0],
-					},
-					{
-						"name": "character4",
-						"file": "../../portraits/portrait_Maggot_skin_4.png",
-						"anchor": [0, 0],
-					},
-				],
-			},
-			{
-				"name": "baseUp",
-				"z": 10,
-				"children": [
-					{
-						"name": "popupBase",
-						"pos": [335, 33, 1],
-					},
-					{
-						"name": "Back",
-						"file": "briefing_menu_back_button_idle.png",
-						"fileMode": "9slice",
-						"fileCursorOver": "briefing_menu_back_button_highlighted.png",
-						"pos": [2,1],
-						"9sliceCoords": [11,3,7,3],
-						"9slicePadding": [13,0,6,0],
-						"children": [
-							{
-								"textKey": "generic.back",
-								"textFont": "back",
-								"pos": [0, 0, 1],
-								"anchor": [0, 0],
-							}
-						]
-					},
-					{
-						"name": "characterBigName",
-						"pos": [501, 231, 0],
-						"children": [
-							{
-								"name": "character1.bigname",
-								"textKey": "character1.name",
-								"textFont": "characterBigName",
-								"textWrap": true,
-								"textMaxWidth": 240,
-								"textAlign": "center",
-								"anchor": [0.5, 0.5],
-							},
-							{
-								"name": "character2.bigname",
-								"textKey": "character2.name",
-								"textFont": "characterBigName",
-								"textWrap": true,
-								"textMaxWidth": 280,
-								"textAlign": "center",
-								"anchor": [0.5, 0.5],
-							},
-							{
-								"name": "character3.bigname",
-								"textKey": "character3.name",
-								"textFont": "characterBigName",
-								"textWrap": true,
-								"textMaxWidth": 280,
-								"textAlign": "center",
-								"anchor": [0.5, 0.5],
-							},
-							{
-								"name": "character4.bigname",
-								"textKey": "character4.name",
-								"textFont": "characterBigName",
-								"textWrap": true,
-								"textMaxWidth": 240,
-								"textAlign": "center",
-								"anchor": [0.5, 0.5],
-							},
-						],
-					},
-					{
-						"name": "Character",
-						"children": [
-							{
-								"textKey": "newrun.title_character",
-								"textFont": "fontTitle",
-								"pos": [164, 44],
-								"anchor": [0.5, 0.5],
-							},
-							{
-								"name": "portrait1",
-								"pos": [51, 75],
-								"children": [
-									{
-										"file": "../../portraits/portrait_Maggot_window_idle.gif",
-										"fileUpdater": ["randomDelay", 1.0, 5.0],
-										"anchor": [0, 0],
-										"name": "idle",
-									},
-									{
-										"file": "../../portraits/portrait_Maggot_window_selected.png",
-										"anchor": [0, 0],
-										"name": "selected",
-									},
-									{
-										"file": "briefing_menu_character_locked.png",
-										"anchor": [0, 0],
-										"name": "locked",
-									},
-									{
-										"name": "portraitSelected",
-										"pos": [-3, -3],
-										"file": "briefing_menu_character_selected.png",
-										"anchor": [0, 0],
-									}
-								]
-							},
-							{
-								"name": "portrait2",
-								"pos": [99, 75],
-								"children": [
-									{
-										"file": "../../portraits/portrait_Maggot_window_idle.gif",
-										"fileUpdater": ["randomDelay", 1.0, 5.0],
-										"anchor": [0, 0],
-										"name": "idle",
-									},
-									{
-										"file": "../../portraits/portrait_Maggot_window_selected.png",
-										"anchor": [0, 0],
-										"name": "selected",
-									},
-									{
-										"file": "briefing_menu_character_locked.png",
-										"anchor": [0, 0],
-										"name": "locked",
-									},
-								]
-							},
-							{
-								"name": "portrait3",
-								"pos": [147, 75],
-								"children": [
-									{
-										"file": "../../portraits/portrait_Maggot_window_idle.gif",
-										"fileUpdater": ["randomDelay", 1.0, 5.0],
-										"anchor": [0, 0],
-										"name": "idle",
-									},
-									{
-										"file": "../../portraits/portrait_Maggot_window_selected.png",
-										"anchor": [0, 0],
-										"name": "selected",
-									},
-									{
-										"file": "briefing_menu_character_locked.png",
-										"anchor": [0, 0],
-										"name": "locked",
-									},
-								]
-							},
-							{
-								"name": "portrait4",
-								"pos": [195, 75],
-								"children": [
-									{
-										"file": "../../portraits/portrait_Maggot_window_idle.gif",
-										"fileUpdater": ["randomDelay", 1.0, 5.0],
-										"anchor": [0, 0],
-										"name": "idle",
-									},
-									{
-										"file": "../../portraits/portrait_Maggot_window_selected.png",
-										"anchor": [0, 0],
-										"name": "selected",
-									},
-									{
-										"file": "briefing_menu_character_locked.png",
-										"anchor": [0, 0],
-										"name": "locked",
-									},
-								]
-							},
-							{
-								"name": "portraitRandom",
-								"pos": [243, 75],
-							},
-							{
-								"name": "healthVfx",
-								"file": "briefing_menu_vfx_health.png",
-								"pos": [220, 135],
-								"anchor": [0, 0],
-							},
-							{
-								"name": "levelVfx",
-								"file": "briefing_menu_vfx_level.png",
-								"pos": [254, 128],
-								"anchor": [0, 0],
-							},
-							{
-								"name": "characterName",
-								"pos": [50, 131],
-								"children": [
-									{
-										"textKey": "character1.name",
-										"textFont": "characterName",
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character2.name",
-										"textFont": "characterName",
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character3.name",
-										"textFont": "characterName",
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character4.name",
-										"textFont": "characterName",
-										"anchor": [0, 0],
-									},
-								],
-							},
-							{
-								"name": "characterHealth",
-								"pos": [230, 131],
-								"children": [
-									{
-										"textValue": "character1.health",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character2.health",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character3.health",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character4.health",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-								],
-							},
-							{
-								"name": "characterLevel",
-								"pos": [269, 131],
-								"children": [
-									{
-										"textValue": "character1.level",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character2.level",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character3.level",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-									{
-										"textValue": "character4.level",
-										"textFont": "characterDescription",
-										"anchor": [0, 0],
-									},
-								],
-							},
-							{
-								"description": "characterDescription",
-								"pos": [50, 145],
-								"children": [
-									{
-										"textKey": "character1.description",
-										"textFont": "characterDescription",
-										"textWrap": true,
-										"textMaxWidth": 232,
-										"textMaxLines": 2,
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character2.description",
-										"textFont": "characterDescription",
-										"textWrap": true,
-										"textMaxWidth": 232,
-										"textMaxLines": 2,
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character3.description",
-										"textFont": "characterDescription",
-										"textWrap": true,
-										"textMaxWidth": 232,
-										"textMaxLines": 2,
-										"anchor": [0, 0],
-									},
-									{
-										"textKey": "character4.description",
-										"textFont": "characterDescription",
-										"textWrap": true,
-										"textMaxWidth": 232,
-										"textMaxLines": 2,
-										"anchor": [0, 0],
-									},
-								],
-							}
-						],
-					},
-					{
-						"name": "Specializations",
-						"children": [
-							{
-								"textKey": "newrun.title_specializations",
-								"textFont": "fontTitle",
-								"pos": [164, 238],
-								"anchor": [0.5, 0.5],
-							},
-						],
-					},
-					{
-						"name": "Difficulty",
-						"children": [
-							{
-								"textKey": "newrun.title_difficulty",
-								"textFont": "fontTitle",
-								"pos": [360, 276],
-								"anchor": [0, 0],
-							},
-							{
-								"name": "difficultyLeft",
-								"file": "briefing_menu_difficulty_arrow_left.png",
-								"pos": [421, 310],
-								"anchor": [0, 0],
-							},
-							{
-								"name": "difficultyRight",
-								"file": "briefing_menu_difficulty_arrow_right.png",
-								"pos": [445, 310],
-								"anchor": [0, 0],
-							},
-							{
-								"name": "difficultyDigits",
-								"pos": [437,315],
-								"children": [
-									{
-										"textKey": "newrun.difficulty1.digit",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty2.digit",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty3.digit",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty4.digit",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-								]
-							},
-							{
-								"name": "difficultyNames",
-								"pos": [437,328],
-								"children": [
-									{
-										"textKey": "newrun.difficulty1",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty2",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty3",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty4",
-										"textFont": "difficulty",
-										"anchor": [0.5, 0.5],
-									},
-								],
-							},
-							{
-								"name": "difficultyTaglines",
-								"pos": [437,340],
-								"children": [
-									{
-										"textKey": "newrun.difficulty1.tagline",
-										"textFont": "difficultyTagline",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty2.tagline",
-										"textFont": "difficultyTagline",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty3.tagline",
-										"textFont": "difficultyTagline",
-										"anchor": [0.5, 0.5],
-									},
-									{
-										"textKey": "newrun.difficulty4.tagline",
-										"textFont": "difficultyTagline",
-										"anchor": [0.5, 0.5],
-									},
-								],
-							},
-						],
-					},
-					{
-						"textKey": "newrun.begin_game",
-						"textFont": "fontTitle",
-						"pos": [598, 305],
-						"anchor": [0.5, 0.5],
-					},
-					{
-						"name": "beginGame",
-						"file": "briefing_menu_red_button_off.png",
-						"fileCursorOver": "briefing_menu_red_button_on.png",
-						"pos": [580,318,1],
-						"anchor": [0, 0],
-					},
-					{
-						"name": "showBio",
-						"file": "briefing_menu_bio_idle.png",
-						"fileCursorOver": "briefing_menu_bio_highlighted.png",
-						"pos": [609, 24, 1],
-						"anchor": [0, 0],
-					},
-					{
-						"textKey": "newrun.bio",
-						"textFont": "characterDescription",
-						"pos": [621, 46, 2],
-						"anchor": [0.5, 0.5],
-					},
-					{
-						"file": "briefing_menu_skin_table_idle.png",
-						"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
-						"pos": [609, 55, 1],
-						"anchor": [0, 0],
-					},
-					{
-						"textKey": "newrun.skin",
-						"textFont": "characterDescription",
-						"pos": [621, 83, 2],
-						"anchor": [0.5, 0.5],
-					},
-					{
-						"name": "tooltiparea.character",
-						"pos": [40, 62],
-						"hitboxSize": [250, 118],
-					},
-					{
-						"name": "tooltiparea.specialization",
-						"pos": [32, 257],
-						"hitboxSize": [266, 92],
-					},
-					{
-						"name": "tooltiparea.difficulty",
-						"pos": [353, 306],
-						"hitboxSize": [165, 43],
-					},
-				],
-			},
-		],
-	}
+	"entities": [
+		{
+			"file": "briefing_menu_main_body.png",
+			"pos": [0, 360, 0],
+			"anchor": [0, 1]
+		},
+		{
+			"name": "character",
+			"pos": [344, 0, 1],
+			"children": [
+				{
+					"name": "character1",
+					"file": "../../portraits/portrait_Maggot_skin_1.png",
+					"anchor": [0, 0],
+				},
+				{
+					"name": "character2",
+					"file": "../../portraits/portrait_Maggot_skin_2.png",
+					"anchor": [0, 0],
+				},
+				{
+					"name": "character3",
+					"file": "../../portraits/portrait_Maggot_skin_3.png",
+					"anchor": [0, 0],
+				},
+				{
+					"name": "character4",
+					"file": "../../portraits/portrait_Maggot_skin_4.png",
+					"anchor": [0, 0],
+				},
+			],
+		},
+		{
+			"name": "baseUp",
+			"z": 10,
+			"children": [
+				{
+					"name": "popupBase",
+					"pos": [335, 33, 1],
+				},
+				{
+					"name": "Back",
+					"file": "briefing_menu_back_button_idle.png",
+					"fileMode": "9slice",
+					"fileCursorOver": "briefing_menu_back_button_highlighted.png",
+					"pos": [2,1],
+					"9sliceCoords": [11,3,7,3],
+					"9slicePadding": [13,0,6,0],
+					"children": [
+						{
+							"textKey": "generic.back",
+							"textFont": "back",
+							"pos": [0, 0, 1],
+							"anchor": [0, 0],
+						}
+					]
+				},
+				{
+					"name": "characterBigName",
+					"pos": [501, 231, 0],
+					"children": [
+						{
+							"name": "character1.bigname",
+							"textKey": "character1.name",
+							"textFont": "characterBigName",
+							"textWrap": true,
+							"textMaxWidth": 240,
+							"textAlign": "center",
+							"anchor": [0.5, 0.5],
+						},
+						{
+							"name": "character2.bigname",
+							"textKey": "character2.name",
+							"textFont": "characterBigName",
+							"textWrap": true,
+							"textMaxWidth": 280,
+							"textAlign": "center",
+							"anchor": [0.5, 0.5],
+						},
+						{
+							"name": "character3.bigname",
+							"textKey": "character3.name",
+							"textFont": "characterBigName",
+							"textWrap": true,
+							"textMaxWidth": 280,
+							"textAlign": "center",
+							"anchor": [0.5, 0.5],
+						},
+						{
+							"name": "character4.bigname",
+							"textKey": "character4.name",
+							"textFont": "characterBigName",
+							"textWrap": true,
+							"textMaxWidth": 240,
+							"textAlign": "center",
+							"anchor": [0.5, 0.5],
+						},
+					],
+				},
+				{
+					"name": "Character",
+					"children": [
+						{
+							"textKey": "newrun.title_character",
+							"textFont": "fontTitle",
+							"pos": [164, 44],
+							"anchor": [0.5, 0.5],
+						},
+						{
+							"name": "portrait1",
+							"pos": [51, 75],
+							"children": [
+								{
+									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"fileUpdater": ["randomDelay", 1.0, 5.0],
+									"anchor": [0, 0],
+									"name": "idle",
+								},
+								{
+									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"anchor": [0, 0],
+									"name": "selected",
+								},
+								{
+									"file": "briefing_menu_character_locked.png",
+									"anchor": [0, 0],
+									"name": "locked",
+								},
+								{
+									"name": "portraitSelected",
+									"pos": [-3, -3],
+									"file": "briefing_menu_character_selected.png",
+									"anchor": [0, 0],
+								}
+							]
+						},
+						{
+							"name": "portrait2",
+							"pos": [99, 75],
+							"children": [
+								{
+									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"fileUpdater": ["randomDelay", 1.0, 5.0],
+									"anchor": [0, 0],
+									"name": "idle",
+								},
+								{
+									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"anchor": [0, 0],
+									"name": "selected",
+								},
+								{
+									"file": "briefing_menu_character_locked.png",
+									"anchor": [0, 0],
+									"name": "locked",
+								},
+							]
+						},
+						{
+							"name": "portrait3",
+							"pos": [147, 75],
+							"children": [
+								{
+									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"fileUpdater": ["randomDelay", 1.0, 5.0],
+									"anchor": [0, 0],
+									"name": "idle",
+								},
+								{
+									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"anchor": [0, 0],
+									"name": "selected",
+								},
+								{
+									"file": "briefing_menu_character_locked.png",
+									"anchor": [0, 0],
+									"name": "locked",
+								},
+							]
+						},
+						{
+							"name": "portrait4",
+							"pos": [195, 75],
+							"children": [
+								{
+									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"fileUpdater": ["randomDelay", 1.0, 5.0],
+									"anchor": [0, 0],
+									"name": "idle",
+								},
+								{
+									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"anchor": [0, 0],
+									"name": "selected",
+								},
+								{
+									"file": "briefing_menu_character_locked.png",
+									"anchor": [0, 0],
+									"name": "locked",
+								},
+							]
+						},
+						{
+							"name": "portraitRandom",
+							"pos": [243, 75],
+						},
+						{
+							"name": "healthVfx",
+							"file": "briefing_menu_vfx_health.png",
+							"pos": [220, 135],
+							"anchor": [0, 0],
+						},
+						{
+							"name": "levelVfx",
+							"file": "briefing_menu_vfx_level.png",
+							"pos": [254, 128],
+							"anchor": [0, 0],
+						},
+						{
+							"name": "characterName",
+							"pos": [50, 131],
+							"children": [
+								{
+									"textKey": "character1.name",
+									"textFont": "characterName",
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character2.name",
+									"textFont": "characterName",
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character3.name",
+									"textFont": "characterName",
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character4.name",
+									"textFont": "characterName",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"name": "characterHealth",
+							"pos": [230, 131],
+							"children": [
+								{
+									"textValue": "character1.health",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character2.health",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character3.health",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character4.health",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"name": "characterLevel",
+							"pos": [269, 131],
+							"children": [
+								{
+									"textValue": "character1.level",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character2.level",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character3.level",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+								{
+									"textValue": "character4.level",
+									"textFont": "characterDescription",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"description": "characterDescription",
+							"pos": [50, 145],
+							"children": [
+								{
+									"textKey": "character1.description",
+									"textFont": "characterDescription",
+									"textWrap": true,
+									"textMaxWidth": 232,
+									"textMaxLines": 2,
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character2.description",
+									"textFont": "characterDescription",
+									"textWrap": true,
+									"textMaxWidth": 232,
+									"textMaxLines": 2,
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character3.description",
+									"textFont": "characterDescription",
+									"textWrap": true,
+									"textMaxWidth": 232,
+									"textMaxLines": 2,
+									"anchor": [0, 0],
+								},
+								{
+									"textKey": "character4.description",
+									"textFont": "characterDescription",
+									"textWrap": true,
+									"textMaxWidth": 232,
+									"textMaxLines": 2,
+									"anchor": [0, 0],
+								},
+							],
+						}
+					],
+				},
+				{
+					"name": "Specializations",
+					"children": [
+						{
+							"textKey": "newrun.title_specializations",
+							"textFont": "fontTitle",
+							"pos": [164, 238],
+							"anchor": [0.5, 0.5],
+						},
+					],
+				},
+				{
+					"name": "Difficulty",
+					"children": [
+						{
+							"textKey": "newrun.title_difficulty",
+							"textFont": "fontTitle",
+							"pos": [360, 276],
+							"anchor": [0, 0],
+						},
+						{
+							"name": "difficultyLeft",
+							"file": "briefing_menu_difficulty_arrow_left.png",
+							"pos": [421, 310],
+							"anchor": [0, 0],
+						},
+						{
+							"name": "difficultyRight",
+							"file": "briefing_menu_difficulty_arrow_right.png",
+							"pos": [445, 310],
+							"anchor": [0, 0],
+						},
+						{
+							"name": "difficultyDigits",
+							"pos": [437,315],
+							"children": [
+								{
+									"textKey": "newrun.difficulty1.digit",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty2.digit",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty3.digit",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty4.digit",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+							]
+						},
+						{
+							"name": "difficultyNames",
+							"pos": [437,328],
+							"children": [
+								{
+									"textKey": "newrun.difficulty1",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty2",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty3",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty4",
+									"textFont": "difficulty",
+									"anchor": [0.5, 0.5],
+								},
+							],
+						},
+						{
+							"name": "difficultyTaglines",
+							"pos": [437,340],
+							"children": [
+								{
+									"textKey": "newrun.difficulty1.tagline",
+									"textFont": "difficultyTagline",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty2.tagline",
+									"textFont": "difficultyTagline",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty3.tagline",
+									"textFont": "difficultyTagline",
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"textKey": "newrun.difficulty4.tagline",
+									"textFont": "difficultyTagline",
+									"anchor": [0.5, 0.5],
+								},
+							],
+						},
+					],
+				},
+				{
+					"textKey": "newrun.begin_game",
+					"textFont": "fontTitle",
+					"pos": [598, 305],
+					"anchor": [0.5, 0.5],
+				},
+				{
+					"name": "beginGame",
+					"file": "briefing_menu_red_button_off.png",
+					"fileCursorOver": "briefing_menu_red_button_on.png",
+					"pos": [580,318,1],
+					"anchor": [0, 0],
+				},
+				{
+					"name": "showBio",
+					"file": "briefing_menu_bio_idle.png",
+					"fileCursorOver": "briefing_menu_bio_highlighted.png",
+					"pos": [609, 24, 1],
+					"anchor": [0, 0],
+				},
+				{
+					"textKey": "newrun.bio",
+					"textFont": "characterDescription",
+					"pos": [621, 46, 2],
+					"anchor": [0.5, 0.5],
+				},
+				{
+					"file": "briefing_menu_skin_table_idle.png",
+					"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
+					"pos": [609, 55, 1],
+					"anchor": [0, 0],
+				},
+				{
+					"textKey": "newrun.skin",
+					"textFont": "characterDescription",
+					"pos": [621, 83, 2],
+					"anchor": [0.5, 0.5],
+				},
+				{
+					"name": "tooltiparea.character",
+					"pos": [40, 62],
+					"hitboxSize": [250, 118],
+				},
+				{
+					"name": "tooltiparea.specialization",
+					"pos": [32, 257],
+					"hitboxSize": [266, 92],
+				},
+				{
+					"name": "tooltiparea.difficulty",
+					"pos": [353, 306],
+					"hitboxSize": [165, 43],
+				},
+			],
+		},
+	]
 }
