@@ -9,13 +9,13 @@
 		},
 		{
 			"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
-			"x": 128,
+			"x": [116, 140],
 			"y": 190,
 			"anchor": [0.5, 1],
 		},
 		{
 			"file": ["jungle_tree_1.png", "jungle_tree_2.png"],
-			"x": 512,
+			"x": [500, 524],
 			"y": 190,
 			"anchor": [0.5, 1],
 		},
