@@ -88,22 +88,22 @@
 			"children": [
 				{
 					"name": "character1",
-					"file": "%%heroes.maggot.textures.portraitBig%%",
+					"fileValue": "character1.portraitBig",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character2",
-					"file": "%%heroes.hero2.textures.portraitBig%%",
+					"fileValue": "character2.portraitBig",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character3",
-					"file": "%%heroes.hero3.textures.portraitBig%%",
+					"fileValue": "character3.portraitBig",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character4",
-					"file": "%%heroes.hero4.textures.portraitBig%%",
+					"fileValue": "character4.portraitBig",
 					"anchor": [0, 0],
 				},
 			],
@@ -189,13 +189,13 @@
 							"pos": [51, 75],
 							"children": [
 								{
-									"file": "%%heroes.maggot.textures.portraitIdle%%",
+									"fileValue": "character1.portraitIdle",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "%%heroes.maggot.textures.portraitSelected%%",
+									"fileValue": "character1.portraitSelected",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -217,13 +217,13 @@
 							"pos": [99, 75],
 							"children": [
 								{
-									"file": "%%heroes.hero2.textures.portraitIdle%%",
+									"fileValue": "character2.portraitIdle",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "%%heroes.hero2.textures.portraitSelected%%",
+									"fileValue": "character2.portraitSelected",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -239,13 +239,13 @@
 							"pos": [147, 75],
 							"children": [
 								{
-									"file": "%%heroes.hero3.textures.portraitIdle%%",
+									"fileValue": "character3.portraitIdle",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "%%heroes.hero3.textures.portraitSelected%%",
+									"fileValue": "character3.portraitSelected",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -261,13 +261,13 @@
 							"pos": [195, 75],
 							"children": [
 								{
-									"file": "%%heroes.hero4.textures.portraitIdle%%",
+									"fileValue": "character4.portraitIdle",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "%%heroes.hero4.textures.portraitSelected%%",
+									"fileValue": "character4.portraitSelected",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
