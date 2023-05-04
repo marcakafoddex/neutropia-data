@@ -139,7 +139,7 @@
 					"children": [
 						{
 							"name": "character1.bigname",
-							"textKey": "%%heroes.maggot.description.name%%",
+							"textValue": "character1.name",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 240,
@@ -148,7 +148,7 @@
 						},
 						{
 							"name": "character2.bigname",
-							"textKey": "%%heroes.hero2.description.name%%",
+							"textValue": "character2.name",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 280,
@@ -157,7 +157,7 @@
 						},
 						{
 							"name": "character3.bigname",
-							"textKey": "%%heroes.hero3.description.name%%",
+							"textValue": "character3.name",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 280,
@@ -166,7 +166,7 @@
 						},
 						{
 							"name": "character4.bigname",
-							"textKey": "%%heroes.hero4.description.name%%",
+							"textValue": "character4.name",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 240,
@@ -299,22 +299,26 @@
 							"pos": [50, 131],
 							"children": [
 								{
-									"textKey": "%%heroes.maggot.description.name%%",
+									"name": "character1.name",
+									"textValue": "character1.name",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero2.description.name%%",
+									"name": "character2.name",
+									"textValue": "character2.name",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero3.description.name%%",
+									"name": "character3.name",
+									"textValue": "character3.name",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero4.description.name%%",
+									"name": "character4.name",
+									"textValue": "character4.name",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
@@ -377,7 +381,8 @@
 							"pos": [50, 145],
 							"children": [
 								{
-									"textKey": "%%heroes.maggot.description.description%%",
+									"name": "character1.description",
+									"textValue": "character1.description",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -385,7 +390,8 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero2.description.description%%",
+									"name": "character2.description",
+									"textValue": "character2.description",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -393,7 +399,8 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero3.description.description%%",
+									"name": "character3.description",
+									"textValue": "character3.description",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -401,7 +408,8 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "%%heroes.hero4.description.description%%",
+									"name": "character4.description",
+									"textValue": "character4.description",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
