@@ -10,8 +10,9 @@
 			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
 		},
 		"description": {
-			"name": "character1.name",
-			"description": "character1.description",
+			"name": "maggot.name",
+			"description": "maggot.description",
+			"bio": "maggot.bio",
 		}
 	},
 	
@@ -28,6 +29,7 @@
 		"description": {
 			"name": "character2.name",
 			"description": "character2.description",
+			"bio": "character2.bio",
 		}
 	},
 	
@@ -44,6 +46,7 @@
 		"description": {
 			"name": "character3.name",
 			"description": "character3.description",
+			"bio": "character3.bio",
 		}
 	},
 	
@@ -60,6 +63,7 @@
 		"description": {
 			"name": "character4.name",
 			"description": "character4.description",
+			"bio": "character4.bio",
 		}
 	}
 }
