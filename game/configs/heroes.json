@@ -10,9 +10,9 @@
 			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
 		},
 		"description": {
-			"name": "maggot.name",
-			"description": "maggot.description",
-			"bio": "maggot.bio",
+			"name": "characters.maggot.name",
+			"description": "characters.maggot.description",
+			"bio": "characters.maggot.bio",
 		}
 	},
 	
@@ -27,9 +27,9 @@
 			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
 		},
 		"description": {
-			"name": "character2.name",
-			"description": "character2.description",
-			"bio": "character2.bio",
+			"name": "characters.hero2.name",
+			"description": "characters.hero2.description",
+			"bio": "characters.hero2.bio",
 		}
 	},
 	
@@ -44,9 +44,9 @@
 			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
 		},
 		"description": {
-			"name": "character3.name",
-			"description": "character3.description",
-			"bio": "character3.bio",
+			"name": "characters.hero3.name",
+			"description": "characters.hero3.description",
+			"bio": "characters.hero3.bio",
 		}
 	},
 	
@@ -61,9 +61,9 @@
 			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
 		},
 		"description": {
-			"name": "character4.name",
-			"description": "character4.description",
-			"bio": "character4.bio",
+			"name": "characters.hero4.name",
+			"description": "characters.hero4.description",
+			"bio": "characters.hero4.bio",
 		}
 	}
 }
