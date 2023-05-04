@@ -12,14 +12,14 @@
 				{
 					"name": "MaxHealth",
 					"file": "UI_LP_red_pixel.png",
-					"anchor": [0, 0.5],
+					"anchor": [0, 0],
 					"z": 1,
 				},
 				{
 					"name": "Health",
 					"file": "UI_LP_green_pixel.png",
-					"anchor": [0, 0.5],
-					"z": 1,
+					"anchor": [0, 0],
+					"z": 2,
 				},
 			]
 		},
