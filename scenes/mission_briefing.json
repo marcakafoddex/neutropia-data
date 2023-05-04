@@ -88,22 +88,22 @@
 			"children": [
 				{
 					"name": "character1",
-					"file": "../../portraits/portrait_Maggot_skin_1.png",
+					"file": "%%heroes.maggot.textures.portraitBig%%",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character2",
-					"file": "../../portraits/portrait_Maggot_skin_2.png",
+					"file": "%%heroes.hero2.textures.portraitBig%%",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character3",
-					"file": "../../portraits/portrait_Maggot_skin_3.png",
+					"file": "%%heroes.hero3.textures.portraitBig%%",
 					"anchor": [0, 0],
 				},
 				{
 					"name": "character4",
-					"file": "../../portraits/portrait_Maggot_skin_4.png",
+					"file": "%%heroes.hero4.textures.portraitBig%%",
 					"anchor": [0, 0],
 				},
 			],
@@ -139,7 +139,7 @@
 					"children": [
 						{
 							"name": "character1.bigname",
-							"textKey": "character1.name",
+							"textKey": "%%heroes.maggot.description.name%%",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 240,
@@ -148,7 +148,7 @@
 						},
 						{
 							"name": "character2.bigname",
-							"textKey": "character2.name",
+							"textKey": "%%heroes.hero2.description.name%%",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 280,
@@ -157,7 +157,7 @@
 						},
 						{
 							"name": "character3.bigname",
-							"textKey": "character3.name",
+							"textKey": "%%heroes.hero3.description.name%%",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 280,
@@ -166,7 +166,7 @@
 						},
 						{
 							"name": "character4.bigname",
-							"textKey": "character4.name",
+							"textKey": "%%heroes.hero4.description.name%%",
 							"textFont": "characterBigName",
 							"textWrap": true,
 							"textMaxWidth": 240,
@@ -189,13 +189,13 @@
 							"pos": [51, 75],
 							"children": [
 								{
-									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"file": "%%heroes.maggot.textures.portraitIdle%%",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"file": "%%heroes.maggot.textures.portraitSelected%%",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -217,13 +217,13 @@
 							"pos": [99, 75],
 							"children": [
 								{
-									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"file": "%%heroes.hero2.textures.portraitIdle%%",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"file": "%%heroes.hero2.textures.portraitSelected%%",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -239,13 +239,13 @@
 							"pos": [147, 75],
 							"children": [
 								{
-									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"file": "%%heroes.hero3.textures.portraitIdle%%",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"file": "%%heroes.hero3.textures.portraitSelected%%",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -261,13 +261,13 @@
 							"pos": [195, 75],
 							"children": [
 								{
-									"file": "../../portraits/portrait_Maggot_window_idle.gif",
+									"file": "%%heroes.hero4.textures.portraitIdle%%",
 									"fileUpdater": ["randomDelay", 1.0, 5.0],
 									"anchor": [0, 0],
 									"name": "idle",
 								},
 								{
-									"file": "../../portraits/portrait_Maggot_window_selected.png",
+									"file": "%%heroes.hero4.textures.portraitSelected%%",
 									"anchor": [0, 0],
 									"name": "selected",
 								},
@@ -299,22 +299,22 @@
 							"pos": [50, 131],
 							"children": [
 								{
-									"textKey": "character1.name",
+									"textKey": "%%heroes.maggot.description.name%%",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character2.name",
+									"textKey": "%%heroes.hero2.description.name%%",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character3.name",
+									"textKey": "%%heroes.hero3.description.name%%",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character4.name",
+									"textKey": "%%heroes.hero4.description.name%%",
 									"textFont": "characterName",
 									"anchor": [0, 0],
 								},
@@ -377,7 +377,7 @@
 							"pos": [50, 145],
 							"children": [
 								{
-									"textKey": "character1.description",
+									"textKey": "%%heroes.maggot.description.description%%",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -385,7 +385,7 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character2.description",
+									"textKey": "%%heroes.hero2.description.description%%",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -393,7 +393,7 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character3.description",
+									"textKey": "%%heroes.hero3.description.description%%",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,
@@ -401,7 +401,7 @@
 									"anchor": [0, 0],
 								},
 								{
-									"textKey": "character4.description",
+									"textKey": "%%heroes.hero4.description.description%%",
 									"textFont": "characterDescription",
 									"textWrap": true,
 									"textMaxWidth": 232,

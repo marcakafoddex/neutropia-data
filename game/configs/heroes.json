@@ -1,0 +1,65 @@
+{
+	"maggot": {
+		"textures": {
+			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
+			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_1.png",
+		},
+		"animations": {
+			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
+			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+		},
+		"description": {
+			"name": "character1.name",
+			"description": "character1.description",
+		}
+	},
+	
+	"hero2": {
+		"textures": {
+			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
+			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_2.png",
+		},
+		"animations": {
+			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
+			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+		},
+		"description": {
+			"name": "character2.name",
+			"description": "character2.description",
+		}
+	},
+	
+	"hero3": {
+		"textures": {
+			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
+			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_3.png",
+		},
+		"animations": {
+			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
+			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+		},
+		"description": {
+			"name": "character3.name",
+			"description": "character3.description",
+		}
+	},
+	
+	"hero4": {
+		"textures": {
+			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
+			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_4.png",
+		},
+		"animations": {
+			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
+			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+		},
+		"description": {
+			"name": "character4.name",
+			"description": "character4.description",
+		}
+	}
+}
