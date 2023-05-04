@@ -1,0 +1,9 @@
+{
+	"neurositer": {
+		"animations": {
+			"idle": "data/textures/sequences/neurositer_idle.gif",
+			"attack": "data/textures/sequences/neurositer_attack.gif",
+			"struck": "data/textures/sequences/neurositer_struck.png",
+		},
+	},
+}
