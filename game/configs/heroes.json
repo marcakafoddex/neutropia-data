@@ -4,6 +4,8 @@
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
 			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_1.png",
+			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
+			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
 			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -24,6 +26,8 @@
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
 			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_2.png",
+			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
+			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
 			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -44,6 +48,8 @@
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
 			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_3.png",
+			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
+			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
 			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -64,6 +70,8 @@
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
 			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_4.png",
+			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
+			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
 			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
