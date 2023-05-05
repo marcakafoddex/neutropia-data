@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/combat_ui",
+	"fonts": {
+		"health": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": false,
+		},
+	},
+	"entities": [
+		{
+			"name": "SettingsButton",
+			"file": "ui_widget_settings_idle.png",
+			"fileCursorOver": "ui_widget_settings_pressed.png",
+			"anchor": [0, 0],
+			"pos": [617, 7],
+		},
+
+	]
+}
