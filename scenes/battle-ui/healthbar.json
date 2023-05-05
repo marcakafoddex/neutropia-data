@@ -15,20 +15,20 @@
 	"entities": [
 		{
 			"name": "Bar",
-			"file": "UI_LP_bar.png",
+			"file": "ui_lp_bar.png",
 			"fileMode": "9slice",
 			"9sliceCoords": [4,3,4,3],
 			"9slicePadding": [3,3,3,3],
 			"children": [
 				{
 					"name": "MaxHealth",
-					"file": "UI_LP_red_pixel.png",
+					"file": "ui_lp_red_pixel.png",
 					"anchor": [0, 0],
 					"z": 1,
 				},
 				{
 					"name": "Health",
-					"file": "UI_LP_green_pixel.png",
+					"file": "ui_lp_green_pixel.png",
 					"anchor": [0, 0],
 					"z": 2,
 				},
