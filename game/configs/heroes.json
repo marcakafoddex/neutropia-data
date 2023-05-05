@@ -13,6 +13,9 @@
 			"name": "characters.maggot.name",
 			"description": "characters.maggot.description",
 			"bio": "characters.maggot.bio",
+		},
+		"stats": {
+			"baseHealth": 60,
 		}
 	},
 	
@@ -30,6 +33,9 @@
 			"name": "characters.hero2.name",
 			"description": "characters.hero2.description",
 			"bio": "characters.hero2.bio",
+		},
+		"stats": {
+			"baseHealth": 70,
 		}
 	},
 	
@@ -47,6 +53,9 @@
 			"name": "characters.hero3.name",
 			"description": "characters.hero3.description",
 			"bio": "characters.hero3.bio",
+		},
+		"stats": {
+			"baseHealth": 55,
 		}
 	},
 	
@@ -64,6 +73,9 @@
 			"name": "characters.hero4.name",
 			"description": "characters.hero4.description",
 			"bio": "characters.hero4.bio",
+		},
+		"stats": {
+			"baseHealth": 104,
 		}
 	}
 }
