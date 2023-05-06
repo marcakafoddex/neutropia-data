@@ -1,0 +1,10 @@
+whatever the route you take:
+- 10-12 waypoints 
+- last waypoint is always the boss
+- initial choice always 2-3 waypoints
+	- these are always normal combat
+- always 1-3 elite combats
+	- not before the 5th waypoint (first 5 waypoint are always regular combat, stores and events)
+- always 0-2 stores
+- always 1-4 events
+- pasths may never cross
