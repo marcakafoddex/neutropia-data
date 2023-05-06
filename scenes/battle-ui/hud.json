@@ -2,13 +2,12 @@
 	"version": 1,
 	"textureDirectory": "data/textures/scenes/combat_ui",
 	"fonts": {
-		"health": {
+		"money": {
 			"path": "data/fonts/LanaPixel.ttf",
 			"size": 13,
-			"topColor": "#ffffff",
+			"topColor": "#eecb00",
 			"split" : 1,
-			"border": true,
-			"borderColor": "#000000",
+			"border": false,
 			"shadow": false,
 		},
 	},
@@ -37,6 +36,12 @@
 							"pos": [0,0,1],
 						},
 					],
+				},
+				{
+					"textValue": "hero.money",
+					"textFont": "money",
+					"achor": [0, 0],
+					"pos": [44, 53, 2],
 				},
 			],
 		},
