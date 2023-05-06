@@ -540,8 +540,8 @@
 				},
 				{
 					"name": "beginGame",
-					"file": "briefing_menu_red_button_off.png",
-					"fileCursorOver": "briefing_menu_red_button_on.png",
+					"file": "briefing_menu_red_button_on.png",
+					"fileCursorOver": "briefing_menu_red_button_off.png",
 					"pos": [580,318,1],
 					"anchor": [0, 0],
 				},
