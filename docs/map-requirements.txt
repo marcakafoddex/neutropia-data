@@ -7,4 +7,4 @@ whatever the route you take:
 	- not before the 5th waypoint (first 5 waypoint are always regular combat, stores and events)
 - always 0-2 stores
 - always 1-4 events
-- pasths may never cross
+- paths may never cross
