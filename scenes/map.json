@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/map",
+	"fonts": {
+		"legend": {
+			"path": "data/fonts/good timing bd.ttf",
+			"size": 19,
+			"scale": 1,
+			"topColor": "#00b88e",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+	},
+	"entities": [
+		{
+			"file": "map_background_jungle.png",
+			"anchor": [0, 0],
+			"children": [
+				{
+					"file": "map_foreground_scanner.png",
+					"anchor": [0, 0],
+					"z": 1,
+				},
+				{
+					"name": "SettingsButton",
+					"file": "../combat_ui/ui_widget_settings_idle.png",
+					"fileCursorOver": "../combat_ui/ui_widget_settings_pressed.png",
+					"anchor": [0, 0],
+					"pos": [617, 7, 2],
+				},
+				{
+					"file": "map_legend_window.png",
+					"anchor": [0.5, 0],
+					"pos": [320, 300, 2],
+					"children": [
+						{
+							"textKey": "map.legend",
+							"textFont": "legend",
+							"anchor": [0.5, 0],
+						},
+					]
+				},
+			],
+		},
+	],
+}
