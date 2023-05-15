@@ -79,7 +79,7 @@
 					"z": 1,
 				},
 				{
-					"name": "templates",
+					"name": "Templates",
 					"children": [
 						{
 							"name": "Hero",
@@ -88,9 +88,9 @@
 							"anchor": [0.5, 0.5],
 						},
 						{
-							"name": "Enemy",
+							"name": "TemplateEnemy",
 							"file": "map_wp_diamond_red.png",
-							"pos": [100, 180, 2],
+							"pos": [0, 0, 2],
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
@@ -106,9 +106,9 @@
 							]
 						},
 						{
-							"name": "Elite",
+							"name": "TemplateElite",
 							"file": "map_wp_diamond_red.png",
-							"pos": [150, 180, 2],
+							"pos": [0, 0, 2],
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
@@ -124,9 +124,9 @@
 							]
 						},
 						{
-							"name": "Elite",
+							"name": "TemplateShop",
 							"file": "map_wp_diamond_green.png",
-							"pos": [200, 180, 2],
+							"pos": [0, 0, 2],
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
@@ -142,9 +142,9 @@
 							]
 						},
 						{
-							"name": "Event",
+							"name": "TemplateEvent",
 							"file": "map_wp_diamond_green.png",
-							"pos": [250, 180, 2],
+							"pos": [0, 0, 2],
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
@@ -160,9 +160,9 @@
 							]
 						},
 						{
-							"name": "Boss",
+							"name": "TemplateBoss",
 							"file": "map_wp_diamond_red.png",
-							"pos": [300, 180, 2],
+							"pos": [0, 0, 2],
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
