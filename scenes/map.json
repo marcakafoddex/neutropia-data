@@ -75,10 +75,109 @@
 					],
 				},
 				{
-					"name": "Hero",
-					"file": "map_hero_maggot.png",
-					"pos": [40, 180, 1],
-					"anchor": [0.5, 0.5],
+					"name": "MapRoot",
+					"z": 1,
+				},
+				{
+					"name": "templates",
+					"children": [
+						{
+							"name": "Hero",
+							"file": "map_hero_maggot.png",
+							"pos": [40, 180, 3],
+							"anchor": [0.5, 0.5],
+						},
+						{
+							"name": "Enemy",
+							"file": "map_wp_diamond_red.png",
+							"pos": [100, 180, 2],
+							"anchor": [0.5, 0.5],
+							"children": [
+								{
+									"file": "map_wp_minion.png",
+									"pos": [0, 0, 1],
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"file": "map_wp_location.png",
+									"pos": [0, 12, -1],
+									"anchor": [0.5, 0],
+								}
+							]
+						},
+						{
+							"name": "Elite",
+							"file": "map_wp_diamond_red.png",
+							"pos": [150, 180, 2],
+							"anchor": [0.5, 0.5],
+							"children": [
+								{
+									"file": "map_wp_elite.png",
+									"pos": [0, 0, 1],
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"file": "map_wp_location.png",
+									"pos": [0, 12, -1],
+									"anchor": [0.5, 0],
+								}
+							]
+						},
+						{
+							"name": "Elite",
+							"file": "map_wp_diamond_green.png",
+							"pos": [200, 180, 2],
+							"anchor": [0.5, 0.5],
+							"children": [
+								{
+									"file": "map_wp_shop.png",
+									"pos": [0, 0, 1],
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"file": "map_wp_location.png",
+									"pos": [0, 12, -1],
+									"anchor": [0.5, 0],
+								}
+							]
+						},
+						{
+							"name": "Event",
+							"file": "map_wp_diamond_green.png",
+							"pos": [250, 180, 2],
+							"anchor": [0.5, 0.5],
+							"children": [
+								{
+									"file": "map_wp_event.png",
+									"pos": [0, 0, 1],
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"file": "map_wp_location.png",
+									"pos": [0, 12, -1],
+									"anchor": [0.5, 0],
+								}
+							]
+						},
+						{
+							"name": "Boss",
+							"file": "map_wp_diamond_red.png",
+							"pos": [300, 180, 2],
+							"anchor": [0.5, 0.5],
+							"children": [
+								{
+									"file": "map_wp_boss.png",
+									"pos": [0, -4, 1],
+									"anchor": [0.5, 0.5],
+								},
+								{
+									"file": "map_wp_location.png",
+									"pos": [0, 12, -1],
+									"anchor": [0.5, 0],
+								}
+							]
+						},
+					],
 				},
 			],
 		},
