@@ -4,14 +4,12 @@
 
 Specs
 
-	idle: #00766e
+	idle: 068480
 
-	hover: 86fff8
+	hover: 17e6db
 
-	selected (blue): 0fe3d7
+	selected v2 (light orange): ffb573
 
-	selected v2 (light orange): ffd38d
-
-	selected v2 (dark orange): fe9255z
+	selected v2 (dark orange): fc7745
 
 ---------------------------------
