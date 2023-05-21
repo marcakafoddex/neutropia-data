@@ -1,0 +1,6 @@
+{
+	"keyframes": [
+		{ "type": "scale", "time": 0.0, "value": [1.00, 1.00, 1.00] },
+		{ "type": "scale", "time": 0.1, "value": [1.25, 1.25, 1.00] }		
+	]
+}

@@ -99,6 +99,7 @@
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
+									"name": "ContentDiamond",
 									"file": "map_wp_diamond_green.png",
 									"pos": [0, -14, 1],
 									"anchor": [0.5, 0.5],
@@ -120,6 +121,7 @@
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
+									"name": "ContentDiamond",
 									"file": "map_wp_diamond_green.png",
 									"pos": [0, -14, 1],
 									"anchor": [0.5, 0.5],
@@ -141,6 +143,7 @@
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
+									"name": "ContentDiamond",
 									"file": "map_wp_diamond_green.png",
 									"pos": [0, -14, 1],
 									"anchor": [0.5, 0.5],
@@ -162,6 +165,7 @@
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
+									"name": "ContentDiamond",
 									"file": "map_wp_diamond_green.png",
 									"pos": [0, -14, 1],
 									"anchor": [0.5, 0.5],
@@ -183,6 +187,7 @@
 							"anchor": [0.5, 0.5],
 							"children": [
 								{
+									"name": "ContentDiamond",
 									"file": "map_wp_diamond_green.png",
 									"pos": [0, -14, 1],
 									"anchor": [0.5, 0],
