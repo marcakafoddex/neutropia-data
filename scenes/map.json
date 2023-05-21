@@ -44,26 +44,31 @@
 							"pos": [-104, 40, 1],
 							"children": [
 								{
+									"name": "MapLegendEnemy",
 									"file": "map_legend_minion.png",
 									"x": 30,
 									"anchor": [0.5, 0.5],
 								},
 								{
+									"name": "MapLegendElite",
 									"file": "map_legend_elite.png",
 									"x": 60,
 									"anchor": [0.5, 0.5],
 								},
 								{
+									"name": "MapLegendShop",
 									"file": "map_legend_shop.png",
 									"x": 90,
 									"anchor": [0.5, 0.5],
 								},
 								{
+									"name": "MapLegendEvent",
 									"file": "map_legend_event.png",
 									"x": 120,
 									"anchor": [0.5, 0.5],
 								},
 								{
+									"name": "MapLegendBoss",
 									"file": "map_legend_boss.png",
 									"x": 180,
 									"y": -5,
@@ -99,6 +104,7 @@
 									"anchor": [0.5, 0.5],
 									"children": [
 										{
+											"name": "Content",
 											"file": "map_wp_minion.png",
 											"pos": [0, 0, 1],
 											"anchor": [0.5, 0.5],
@@ -119,6 +125,7 @@
 									"anchor": [0.5, 0.5],
 									"children": [
 										{
+											"name": "Content",
 											"file": "map_wp_elite.png",
 											"pos": [0, 0, 1],
 											"anchor": [0.5, 0.5],
@@ -139,6 +146,7 @@
 									"anchor": [0.5, 0.5],
 									"children": [
 										{
+											"name": "Content",
 											"file": "map_wp_shop.png",
 											"pos": [0, 0, 1],
 											"anchor": [0.5, 0.5],
@@ -159,6 +167,7 @@
 									"anchor": [0.5, 0.5],
 									"children": [
 										{
+											"name": "Content",
 											"file": "map_wp_event.png",
 											"pos": [0, 0, 1],
 											"anchor": [0.5, 0.5],
@@ -179,6 +188,7 @@
 									"anchor": [0.5, 0],
 									"children": [
 										{
+											"name": "Content",
 											"file": "map_wp_boss.png",
 											"pos": [0, 7, 1],
 											"anchor": [0.5, 0.5],
