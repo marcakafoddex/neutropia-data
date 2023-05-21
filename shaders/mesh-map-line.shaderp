@@ -1,0 +1,8 @@
+{
+	"profiles": {
+		"default": {
+			"opengl": [ "mesh-map-line.vs", "mesh-map-line.fs" ],
+			"vulkan": [ "mesh-map-line.vsspv", "mesh-map-line.fsspv" ]
+		}
+	}
+}
