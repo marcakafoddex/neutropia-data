@@ -75,6 +75,16 @@
 			"border": false,
 			"shadow": false,
 		},
+		"bioAndSkin": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#0cc8b9",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#004147",
+			"shadow": false,
+		},
 	},
 	"entities": [
 		{
@@ -549,25 +559,25 @@
 					"name": "showBio",
 					"file": "briefing_menu_bio_idle.png",
 					"fileCursorOver": "briefing_menu_bio_highlighted.png",
-					"pos": [609, 24, 1],
+					"pos": [608, 58, 1],
 					"anchor": [0, 0],
 				},
-				{
+{
 					"textKey": "newrun.bio",
-					"textFont": "characterDescription",
-					"pos": [621, 46, 2],
+					"textFont": "bioAndSkin",
+					"pos": [621, 53, 1],
 					"anchor": [0.5, 0.5],
 				},
 				{
 					"file": "briefing_menu_skin_table_idle.png",
 					"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
-					"pos": [609, 55, 1],
+					"pos": [608, 105, 1],
 					"anchor": [0, 0],
 				},
 				{
 					"textKey": "newrun.skin",
-					"textFont": "characterDescription",
-					"pos": [621, 83, 2],
+					"textFont": "bioAndSkin",
+					"pos": [621, 100, 1],
 					"anchor": [0.5, 0.5],
 				},
 				{
