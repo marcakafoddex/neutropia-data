@@ -200,14 +200,20 @@
 									"name": "selected",
 								},
 								{
-									"file": "briefing_menu_character_locked.png",
+									"file": "briefing_menu_portrait_locked.png",
 									"anchor": [0, 0],
 									"name": "locked",
 								},
 								{
 									"name": "portraitSelected",
-									"pos": [-3, -3],
-									"file": "briefing_menu_character_selected.png",
+									"pos": [-3, -3, 2],
+									"file": "briefing_menu_portrait_selected.png",
+									"anchor": [0, 0],
+								},
+								{
+									"name": "portraitHover",
+									"pos": [-2, -2, 1],
+									"file": "briefing_menu_portrait_hover.png",
 									"anchor": [0, 0],
 								}
 							]
@@ -228,7 +234,7 @@
 									"name": "selected",
 								},
 								{
-									"file": "briefing_menu_character_locked.png",
+									"file": "briefing_menu_portrait_locked.png",
 									"anchor": [0, 0],
 									"name": "locked",
 								},
@@ -250,7 +256,7 @@
 									"name": "selected",
 								},
 								{
-									"file": "briefing_menu_character_locked.png",
+									"file": "briefing_menu_portrait_locked.png",
 									"anchor": [0, 0],
 									"name": "locked",
 								},
@@ -272,15 +278,11 @@
 									"name": "selected",
 								},
 								{
-									"file": "briefing_menu_character_locked.png",
+									"file": "briefing_menu_portrait_locked.png",
 									"anchor": [0, 0],
 									"name": "locked",
 								},
 							]
-						},
-						{
-							"name": "portraitRandom",
-							"pos": [243, 75],
 						},
 						{
 							"name": "healthVfx",
@@ -442,15 +444,13 @@
 						},
 						{
 							"name": "difficultyLeft",
-							"file": "briefing_menu_difficulty_arrow_left.png",
 							"pos": [421, 310],
-							"anchor": [0, 0],
+							"hitboxSize": [7, 11],
 						},
 						{
 							"name": "difficultyRight",
-							"file": "briefing_menu_difficulty_arrow_right.png",
 							"pos": [445, 310],
-							"anchor": [0, 0],
+							"hitboxSize": [7, 11],
 						},
 						{
 							"name": "difficultyDigits",
