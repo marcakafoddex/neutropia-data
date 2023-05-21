@@ -1,0 +1,8 @@
+{
+	"profiles": {
+		"default": {
+			"opengl": [ "mesh.vs", "mesh-map.fs" ],
+			"vulkan": [ "mesh.vsspv", "mesh-map.fsspv" ]
+		}
+	}
+}
