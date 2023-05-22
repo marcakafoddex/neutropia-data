@@ -103,7 +103,7 @@
 						},
 						{
 							"name": "TemplateEnemy",
-							"file": "map_wp_location.png",
+							"file": "map_wp_location_green.png",
 							"pos": [0, 0, 3],
 							"anchor": [0.5, 0.5],
 							"children": [
@@ -125,7 +125,7 @@
 						},
 						{
 							"name": "TemplateElite",
-							"file": "map_wp_location.png",
+							"file": "map_wp_location_green.png",
 							"pos": [0, 0, 3],
 							"anchor": [0.5, 0.5],
 							"children": [
@@ -147,7 +147,7 @@
 						},
 						{
 							"name": "TemplateShop",
-							"file": "map_wp_location.png",
+							"file": "map_wp_location_green.png",
 							"pos": [0, 0, 3],
 							"anchor": [0.5, 0.5],
 							"children": [
@@ -169,7 +169,7 @@
 						},
 						{
 							"name": "TemplateEvent",
-							"file": "map_wp_location.png",
+							"file": "map_wp_location_green.png",
 							"pos": [0, 0, 3],
 							"anchor": [0.5, 0.5],
 							"children": [
@@ -191,7 +191,7 @@
 						},
 						{
 							"name": "TemplateBoss",
-							"file": "map_wp_location.png",
+							"file": "map_wp_location_green.png",
 							"pos": [0, 0, 3],
 							"anchor": [0.5, 0.5],
 							"children": [
