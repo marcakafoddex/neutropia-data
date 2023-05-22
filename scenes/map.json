@@ -216,7 +216,7 @@
 				{
 					"textValue": "map.id",
 					"textFont": "mapid",
-					"pos": [0, 361, 1],
+					"pos": [0, 361, 10],
 					"anchor": [0, 1],
 				},
 			],
