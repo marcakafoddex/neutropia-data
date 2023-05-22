@@ -11,6 +11,15 @@
 			"border": false,
 			"shadow": false,
 		},
+		"mapid": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
 	},
 	"entities": [
 		{
@@ -203,6 +212,12 @@
 							]
 						},
 					],
+				},
+				{
+					"textValue": "map.id",
+					"textFont": "mapid",
+					"pos": [0, 361, 1],
+					"anchor": [0, 1],
 				},
 			],
 		},
