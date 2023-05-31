@@ -573,6 +573,61 @@
 					"fileCursorOver": "briefing_menu_skin_table_highlighted.png",
 					"pos": [608, 105, 1],
 					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "AvailableSkin1",
+							"pos": [4, 4, 1],
+							"file": "../../s.png",
+							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "AvailableSkin2",
+							"pos": [14, 4, 1],
+							"file": "../../s.png",
+							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "AvailableSkin3",
+							"pos": [4, 14, 1],
+							"file": "../../s.png",
+							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "AvailableSkin4",
+							"pos": [14, 14, 1],
+							"file": "../../s.png",
+							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"anchor": [0,0],
+						},
+						
+						{
+							"name": "SelectedSkin1",
+							"pos": [4, 4, 1],
+							"file": "briefing_menu_skin_selected.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "SelectedSkin2",
+							"pos": [14, 4, 1],
+							"file": "briefing_menu_skin_selected.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "SelectedSkin3",
+							"pos": [4, 14, 1],
+							"file": "briefing_menu_skin_selected.png",
+							"anchor": [0,0],
+						},
+						{
+							"name": "SelectedSkin4",
+							"pos": [14, 14, 1],
+							"file": "briefing_menu_skin_selected.png",
+							"anchor": [0,0],
+						},
+					],
 				},
 				{
 					"textKey": "newrun.skin",
