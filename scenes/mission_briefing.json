@@ -550,13 +550,14 @@
 				},
 				{
 					"name": "beginGame",
-					"file": "briefing_menu_red_button_off.png",
+					"file": "briefing_menu_red_button_normal.png",
 					"anchor": [0, 0],
 					"pos": [580,318,1],
 					"button": {
 						"hover": "briefing_menu_red_button_hover.png",
-						"pressed": "briefing_menu_red_button_on.png",
+						"pressed": "briefing_menu_red_button_pressed.png",
 						"clickEvent": "beginGame",
+						"eventTarget": "SceneRoot#MissionBriefing"
 					},
 				},
 				{
