@@ -140,7 +140,10 @@
 					"name": "Back",
 					"file": "briefing_menu_back_button_idle.png",
 					"fileMode": "9slice",
-					"fileCursorOver": "briefing_menu_back_button_highlighted.png",
+					"button": {
+						"hover": "briefing_menu_back_button_highlighted.png",
+						"clickEvent": "Back",
+					},
 					"pos": [2,1],
 					"9sliceCoords": [11,3,7,3],
 					"9slicePadding": [13,0,6,0],
@@ -207,6 +210,10 @@
 						{
 							"name": "portrait1",
 							"pos": [51, 75],
+							"hitboxSize": [36, 36],
+							"button": {
+								"clickEvent": "SelectCharacter1",
+							},
 							"children": [
 								{
 									"fileValue": "character1.portraitIdle",
@@ -241,6 +248,10 @@
 						{
 							"name": "portrait2",
 							"pos": [99, 75],
+							"hitboxSize": [36, 36],
+							"button": {
+								"clickEvent": "SelectCharacter2",
+							},
 							"children": [
 								{
 									"fileValue": "character2.portraitIdle",
@@ -263,6 +274,10 @@
 						{
 							"name": "portrait3",
 							"pos": [147, 75],
+							"hitboxSize": [36, 36],
+							"button": {
+								"clickEvent": "SelectCharacter3",
+							},
 							"children": [
 								{
 									"fileValue": "character3.portraitIdle",
@@ -285,6 +300,10 @@
 						{
 							"name": "portrait4",
 							"pos": [195, 75],
+							"hitboxSize": [36, 36],
+							"button": {
+								"clickEvent": "SelectCharacter4",
+							},
 							"children": [
 								{
 									"fileValue": "character4.portraitIdle",
@@ -466,11 +485,17 @@
 							"name": "difficultyLeft",
 							"pos": [421, 310],
 							"hitboxSize": [7, 11],
+							"button": {
+								"clickEvent": "DifficultyPrev",
+							}
 						},
 						{
 							"name": "difficultyRight",
 							"pos": [445, 310],
 							"hitboxSize": [7, 11],
+							"button": {
+								"clickEvent": "DifficultyNext",
+							}
 						},
 						{
 							"name": "difficultyDigits",
