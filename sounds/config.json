@@ -1,0 +1,10 @@
+{
+	"channels": {
+		"Menu": 16,
+		"Game": 128,
+	},
+	"sounds": {
+		"MenuClick": "data/sounds/click.wav",
+		"MenuHover": "data/sounds/mouseover.wav",
+	}
+}

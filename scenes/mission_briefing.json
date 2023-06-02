@@ -86,6 +86,16 @@
 			"shadow": false,
 		},
 	},
+	"audio": {
+		"channel": "Menu",
+	},
+	"defaults": {
+		"button": {
+			"eventTarget": "SceneRoot#MissionBriefing",
+			"hoverSound": "MenuHover",
+			"clickSound": "MenuClick",
+		},
+	},
 	"entities": [
 		{
 			"file": "briefing_menu_main_body.png",
@@ -557,7 +567,6 @@
 						"hover": "briefing_menu_red_button_hover.png",
 						"pressed": "briefing_menu_red_button_pressed.png",
 						"clickEvent": "beginGame",
-						"eventTarget": "SceneRoot#MissionBriefing"
 					},
 				},
 				{
