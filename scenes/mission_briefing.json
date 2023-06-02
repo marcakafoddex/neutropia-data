@@ -551,10 +551,13 @@
 				{
 					"name": "beginGame",
 					"file": "briefing_menu_red_button_off.png",
-					"fileCursorOver": "briefing_menu_red_button_hover.png",
-					"fileMouseDown": "briefing_menu_red_button_on.png",
-					"pos": [580,318,1],
 					"anchor": [0, 0],
+					"pos": [580,318,1],
+					"button": {
+						"hover": "briefing_menu_red_button_hover.png",
+						"pressed": "briefing_menu_red_button_on.png",
+						"clickEvent": "beginGame",
+					},
 				},
 				{
 					"name": "showBio",
