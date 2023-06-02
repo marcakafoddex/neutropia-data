@@ -559,20 +559,23 @@
 					"anchor": [0.5, 0.5],
 				},
 				{
-					"name": "beginGame",
+					"name": "BeginGame",
 					"file": "briefing_menu_red_button_normal.png",
 					"anchor": [0, 0],
 					"pos": [580,318,1],
 					"button": {
 						"hover": "briefing_menu_red_button_hover.png",
 						"pressed": "briefing_menu_red_button_pressed.png",
-						"clickEvent": "beginGame",
+						"clickEvent": "BeginGame",
 					},
 				},
 				{
-					"name": "showBio",
+					"name": "ShowBio",
 					"file": "briefing_menu_bio_idle.png",
-					"fileCursorOver": "briefing_menu_bio_highlighted.png",
+					"button": {
+						"hover": "briefing_menu_bio_highlighted.png",
+						"clickEvent": "ShowBio",
+					},
 					"pos": [608, 58, 1],
 					"anchor": [0, 0],
 				},
@@ -592,28 +595,40 @@
 							"name": "AvailableSkin1",
 							"pos": [4, 4, 1],
 							"file": "../../s.png",
-							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"button": {
+								"hover": "briefing_menu_skin_highlighted.png",
+								"clickEvent": "SelectSkin1",
+							},
 							"anchor": [0,0],
 						},
 						{
 							"name": "AvailableSkin2",
 							"pos": [14, 4, 1],
 							"file": "../../s.png",
-							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"button": {
+								"hover": "briefing_menu_skin_highlighted.png",
+								"clickEvent": "SelectSkin2",
+							},
 							"anchor": [0,0],
 						},
 						{
 							"name": "AvailableSkin3",
 							"pos": [4, 14, 1],
 							"file": "../../s.png",
-							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"button": {
+								"hover": "briefing_menu_skin_highlighted.png",
+								"clickEvent": "SelectSkin3",
+							},
 							"anchor": [0,0],
 						},
 						{
 							"name": "AvailableSkin4",
 							"pos": [14, 14, 1],
 							"file": "../../s.png",
-							"fileCursorOver": "briefing_menu_skin_highlighted.png",
+							"button": {
+								"hover": "briefing_menu_skin_highlighted.png",
+								"clickEvent": "SelectSkin4",
+							},
 							"anchor": [0,0],
 						},
 						
