@@ -8,8 +8,13 @@
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
-			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
-			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+			"idle": {
+				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+				"loopCount": 4
+			},
 		},
 		"description": {
 			"name": "characters.maggot.name",
@@ -20,7 +25,7 @@
 			"baseHealth": 60,
 		}
 	},
-	
+
 	"hero2": {
 		"textures": {
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
@@ -30,8 +35,13 @@
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
-			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
-			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+			"idle": {
+				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+				"loopCount": 4
+			},
 		},
 		"description": {
 			"name": "characters.hero2.name",
@@ -42,7 +52,7 @@
 			"baseHealth": 70,
 		}
 	},
-	
+
 	"hero3": {
 		"textures": {
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
@@ -52,8 +62,13 @@
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
-			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
-			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+			"idle": {
+				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+				"loopCount": 4
+			},
 		},
 		"description": {
 			"name": "characters.hero3.name",
@@ -64,7 +79,7 @@
 			"baseHealth": 55,
 		}
 	},
-	
+
 	"hero4": {
 		"textures": {
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
@@ -74,8 +89,13 @@
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"animations": {
-			"idle": "data/textures/sequences/Maggot_idle_arX3.gif",
-			"attack": "data/textures/sequences/Maggot_attack_arX3.gif",
+			"idle": {
+				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+				"loopCount": 4
+			},
 		},
 		"description": {
 			"name": "characters.hero4.name",

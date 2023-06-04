@@ -1,9 +1,15 @@
 {
 	"neurositer": {
 		"animations": {
-			"idle": "data/textures/sequences/neurositer_idle.gif",
-			"attack": "data/textures/sequences/neurositer_attack.gif",
-			"struck": "data/textures/sequences/neurositer_struck.png",
+			"idle": {
+				"path": "data/textures/sequences/neurositer_idle.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/neurositer_attack.gif",
+			},
+			"struck": {
+				"path": "data/textures/sequences/neurositer_struck.png",
+			},
 		},
 		"stats": {
 			"baseHealth": 24,
