@@ -3,17 +3,15 @@
 	"textureDirectory": "data/textures/scenes/mainmenu",
 	"fonts": {
 		"menu": {
-			"path": "data/fonts/good timing bd.ttf",
-			"size": 19,
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
 			"scale": 2,
 			"topColor": "#f3e59e",
 			"bottomColor": "#e69e4a",
 			"split" : 0.55,
 			"border": true,
 			"borderColor": "#000000",
-			"shadow": true,
-			"shadowColor": "#000000",
-			"shadowOffset": [0, 1],
+			"shadow": false,
 		},
 	},
 	"audio": {
@@ -56,6 +54,33 @@
 								"clickEvent": "Database",
 							},
 							"y": 30,
+						},
+						{
+							"textKey": "menu.settings",
+							"textFont": "menu",
+							"anchor": [0, 0],
+							"button": {
+								"clickEvent": "Settings",
+							},
+							"y": 60,
+						},
+						{
+							"textKey": "menu.credits",
+							"textFont": "menu",
+							"anchor": [0, 0],
+							"button": {
+								"clickEvent": "Credits",
+							},
+							"y": 90,
+						},
+						{
+							"textKey": "menu.quit_game",
+							"textFont": "menu",
+							"anchor": [0, 0],
+							"button": {
+								"clickEvent": "QuitGame",
+							},
+							"y": 120,
 						},
 					]
 				},
