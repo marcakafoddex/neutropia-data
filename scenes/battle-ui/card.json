@@ -26,6 +26,14 @@
 			"split" : 1,
 			"border": false,
 			"shadow": false,
+		},
+		"cardCost": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 26,
+			"topColor": "#1af4ed",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
 		}
 	},
 	"entities": [
@@ -113,12 +121,22 @@
 					"name": "AbilityAutoFire",
 					"file": "card_weapon_ability_autofire.png",
 					"anchor": [0, 0],
-					"pos": [0, 14],
 				},
 				{
 					"name": "AbilityAutoFire",
 					"file": "card_weapon_ability_piercing.png",
 					"anchor": [0, 0],
+				},
+				{
+					"name": "AbilitySlot0",
+					"pos": [0, 0],
+				},
+				{
+					"name": "AbilitySlot1",
+					"pos": [0, 14],
+				},
+				{
+					"name": "AbilitySlot2",
 					"pos": [0, 28],
 				},
 			],
@@ -205,6 +223,91 @@
 			],
 		},
 		{
+			"name": "CartidgeBase",
+			"pos": [-16, -125, 1],
+			"children": [
+				{
+					"name": "CartidgeSlot0",
+				},
+				{
+					"name": "CartidgeSlot1",
+					"pos": [28, 0],
+				},
+				{
+					"name": "CartidgeCapacitorIn",
+					"file": "../cartridges/cartridge_capacitor_in.gif",
+					"anchor": [0.5, 1],
+					"visible": true,
+				},
+				{
+					"name": "CartidgeCapacitorOut",
+					"file": "../cartridges/cartridge_capacitor_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeInductorIn",
+					"file": "../cartridges/cartridge_inductor_in.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeInductorIn",
+					"file": "../cartridges/cartridge_inductor_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeOverclockerIn",
+					"file": "../cartridges/cartridge_overclocker_in.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeOverclockerOut",
+					"file": "../cartridges/cartridge_overclocker_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeRamIn",
+					"file": "../cartridges/cartridge_ram_in.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeRamOut",
+					"file": "../cartridges/cartridge_ram_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeResistorIn",
+					"file": "../cartridges/cartridge_resistor_in.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeResistorOut",
+					"file": "../cartridges/cartridge_resistor_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeTransistorIn",
+					"file": "../cartridges/cartridge_transistor_in.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "CartidgeTransistorOut",
+					"file": "../cartridges/cartridge_transistor_out.gif",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+			],
+		},
+		{
 			"name": "CardName",
 			"pos": [0, -55, 1],
 			"textKey": "card.name",
@@ -222,12 +325,25 @@
 			"name": "CardDescription",
 			"textKey": "some sort of long text with stuff in it",
 			"textFont": "cardDescription",
-			"pos": [-1, -57, 0],
+			"pos": [-1, -57, 1],
 			"anchor": [0.5, 0],
 			"textWrap": true,
 			"textMaxWidth": 78,
 			"textMaxLines": 3,
 			"textAlign": "center",
+		},
+		{
+			"name": "CardCost",
+			"textKey": "2",
+			"textFont": "cardCost",
+			"pos": [-41, -137, 1],
+			"anchor": [0.5, 0.5],
+		},
+		{
+			"name": "CardPicture",
+			"file": "../../cards/the-foddie.png",
+			"pos": [-2, -70, -1],
+			"anchor": [0.5, 1],
 		},
 	],
 }
