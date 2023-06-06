@@ -1,0 +1,233 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/card_template",
+	"fonts": {
+		"cardName": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#f5e5a0",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": false,
+		},
+		"cardType": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#382d32",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+		"cardDescription": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		}
+	},
+	"entities": [
+		{
+			"name": "FramesBase",
+			"children": [
+				{
+					"name": "BlueFrame",
+					"file": "card_frame_blue.png",
+					"visible": true,
+					"anchor": [0.5, 1],
+				},
+				{
+					"name": "BrownFrame",
+					"file": "card_frame_brown.png",
+					"visible": false,
+					"anchor": [0.5, 1],
+				},
+				{
+					"name": "GreenFrame",
+					"file": "card_frame_green.png",
+					"visible": false,
+					"anchor": [0.5, 1],
+				},
+				{
+					"name": "PurpleFrame",
+					"file": "card_frame_purple.png",
+					"visible": false,
+					"anchor": [0.5, 1],
+				},
+				{
+					"name": "RedFrame",
+					"file": "card_frame_red.png",
+					"visible": false,
+					"anchor": [0.5, 1],
+				}
+			],
+		},
+		{
+			"name": "RarityBase",
+			"pos": [-51, -117, 1],
+			"children": [
+				{
+					"name": "RarityStart",
+					"file": "card_rarity_white_starter.png",
+					"visible": true,
+					"anchor": [0,0],
+				},
+				{
+					"name": "RarityCommon",
+					"file": "card_rarity_green_common.png",
+					"visible": false,
+					"anchor": [0,0],
+				},
+				{
+					"name": "RarityEpic",
+					"file": "card_rarity_orange_epic.png",
+					"visible": false,
+					"anchor": [0,0],
+				},
+				{
+					"name": "RarityRare",
+					"file": "card_rarity_purple_rare.png",
+					"visible": false,
+					"anchor": [0,0],
+				},
+				{
+					"name": "RarityUnique",
+					"file": "card_rarity_red_unique.png",
+					"visible": false,
+					"anchor": [0,0],
+				}
+			],
+		},
+		{
+			"name": "AbilityBase",
+			"pos": [33, -119, 1],
+			"children": [
+				{
+					"name": "AbilityAkimbo",
+					"file": "card_weapon_ability_akimbo.png",
+					"anchor": [0, 0],
+				},
+				{
+					"name": "AbilityAutoFire",
+					"file": "card_weapon_ability_autofire.png",
+					"anchor": [0, 0],
+					"pos": [0, 14],
+				},
+				{
+					"name": "AbilityAutoFire",
+					"file": "card_weapon_ability_piercing.png",
+					"anchor": [0, 0],
+					"pos": [0, 28],
+				},
+			],
+		},
+		{
+			"name": "SpecBase",
+			"pos": [40, -131, 1],
+			"children": [
+				{
+					"name": "SpecArmorHeavy",
+					"file": "card_spec_armor_heavy.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecArmorLight",
+					"file": "card_spec_armor_light.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecArmorMedium",
+					"file": "card_spec_armor_medium.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecAutomatic",
+					"file": "card_spec_automatic.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecBasher",
+					"file": "card_spec_basher.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecBlade",
+					"file": "card_spec_blade.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecBow",
+					"file": "card_spec_bow.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecBrawl",
+					"file": "card_spec_brawl.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecCrossBow",
+					"file": "card_spec_crossbow.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecDart",
+					"file": "card_spec_dart.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecPistol",
+					"file": "card_spec_pistol.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecPoleArm",
+					"file": "card_spec_polearm.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecShotgun",
+					"file": "card_spec_shotgun.png",
+					"visible": true,
+				},
+				{
+					"name": "SpecSniper",
+					"file": "card_spec_sniper.png",
+					"visible": false,
+				},
+				{
+					"name": "SpecSpinner",
+					"file": "card_spec_spinner.png",
+					"visible": false,
+				},
+			],
+		},
+		{
+			"name": "CardName",
+			"pos": [0, -55, 1],
+			"textKey": "card.name",
+			"textFont": "cardName",
+			"anchor": [0.5, 1],
+		},
+		{
+			"name": "CardType",
+			"pos": [-1, 0, 1],
+			"textKey": "card.type",
+			"textFont": "cardType",
+			"anchor": [0.5, 1],
+		},
+		{
+			"name": "CardDescription",
+			"textKey": "some sort of long text with stuff in it",
+			"textFont": "cardDescription",
+			"pos": [-1, -57, 0],
+			"anchor": [0.5, 0],
+			"textWrap": true,
+			"textMaxWidth": 78,
+			"textMaxLines": 3,
+			"textAlign": "center",
+		},
+	],
+}
