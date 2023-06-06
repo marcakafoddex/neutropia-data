@@ -1,0 +1,65 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/mainmenu",
+	"fonts": {
+		"menu": {
+			"path": "data/fonts/good timing bd.ttf",
+			"size": 19,
+			"scale": 2,
+			"topColor": "#f3e59e",
+			"bottomColor": "#e69e4a",
+			"split" : 0.55,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": true,
+			"shadowColor": "#000000",
+			"shadowOffset": [0, 1],
+		},
+	},
+	"audio": {
+		"channel": "Menu",
+	},
+	"defaults": {
+		"button": {
+			"eventTarget": "SceneRoot#MainMenu",
+			"hoverSound": "MenuHover",
+			"clickSound": "MenuClick",
+		},
+	},
+	"entities": [
+		{
+			"file": "background.png",
+			"anchor": [0, 0],
+			"children": [
+				{
+					"file": "gametitle.png",
+					"pos": [10, 20, 1],
+					"anchor": [0, 0],
+				},
+				{
+					"pos": [10, 96, 1],
+					"children": [
+						{
+							"textKey": "menu.new_run",
+							"textFont": "menu",
+							"anchor": [0, 0],
+							"button": {
+								"clickEvent": "NewRun",
+							},
+							"y": 0,
+						},
+						{
+							"textKey": "menu.database",
+							"textFont": "menu",
+							"anchor": [0, 0],
+							"button": {
+								"clickEvent": "Database",
+							},
+							"y": 30,
+						},
+					]
+				},
+			]
+		},
+	]
+}
