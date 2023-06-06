@@ -7,14 +7,44 @@
 			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
-		"animations": {
-			"idle": {
-				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+		"description": {
+			"name": "characters.maggot.name",
+			"description": "characters.maggot.description",
+			"bio": "characters.maggot.bio",
+		},
+		"stats": {
+			"baseHealth": 60,
+		},
+		"arX3": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+					"loopCount": 4
+				},
 			},
-			"attack": {
-				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
-				"loopCount": 4
+		},
+		"juggedMachette": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_jugged_machette.gif",
+				},
 			},
+		},
+	},
+
+	"hero2": {
+		"textures": {
+			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
+			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_1.png",
+			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
+			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
 		"description": {
 			"name": "characters.maggot.name",
@@ -23,87 +53,105 @@
 		},
 		"stats": {
 			"baseHealth": 60,
-		}
-	},
-
-	"hero2": {
-		"textures": {
-			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
-			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
-			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_2.png",
-			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
-			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
-		"animations": {
-			"idle": {
-				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
-			},
-			"attack": {
-				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
-				"loopCount": 4
+		"arX3": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+					"loopCount": 4
+				},
 			},
 		},
-		"description": {
-			"name": "characters.hero2.name",
-			"description": "characters.hero2.description",
-			"bio": "characters.hero2.bio",
+		"juggedMachette": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_jugged_machette.gif",
+				},
+			},
 		},
-		"stats": {
-			"baseHealth": 70,
-		}
 	},
 
 	"hero3": {
 		"textures": {
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
-			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_3.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_1.png",
 			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
-		"animations": {
-			"idle": {
-				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
-			},
-			"attack": {
-				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
-				"loopCount": 4
-			},
-		},
 		"description": {
-			"name": "characters.hero3.name",
-			"description": "characters.hero3.description",
-			"bio": "characters.hero3.bio",
+			"name": "characters.maggot.name",
+			"description": "characters.maggot.description",
+			"bio": "characters.maggot.bio",
 		},
 		"stats": {
-			"baseHealth": 55,
-		}
+			"baseHealth": 60,
+		},
+		"arX3": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+					"loopCount": 4
+				},
+			},
+		},
+		"juggedMachette": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_jugged_machette.gif",
+				},
+			},
+		},
 	},
 
 	"hero4": {
 		"textures": {
 			"portraitIdle": "data/textures/portraits/portrait_Maggot_window_idle.gif",
 			"portraitSelected": "data/textures/portraits/portrait_Maggot_window_selected.png",
-			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_4.png",
+			"portraitBig": "data/textures/portraits/portrait_Maggot_skin_1.png",
 			"uiHealthy": "data/textures/portraits/portrait_Maggot_window_healthy.png",
 			"uiWounded": "data/textures/portraits/portrait_Maggot_window_wounded.png",
 		},
-		"animations": {
-			"idle": {
-				"path": "data/textures/sequences/Maggot_idle_arX3.gif",
-			},
-			"attack": {
-				"path": "data/textures/sequences/Maggot_attack_arX3.gif",
-				"loopCount": 4
-			},
-		},
 		"description": {
-			"name": "characters.hero4.name",
-			"description": "characters.hero4.description",
-			"bio": "characters.hero4.bio",
+			"name": "characters.maggot.name",
+			"description": "characters.maggot.description",
+			"bio": "characters.maggot.bio",
 		},
 		"stats": {
-			"baseHealth": 104,
-		}
+			"baseHealth": 60,
+		},
+		"arX3": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_arX3.gif",
+					"loopCount": 4
+				},
+			},
+		},
+		"juggedMachette": {
+			"animations": {
+				"idle": {
+					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
+				},
+				"attack": {
+					"path": "data/textures/sequences/Maggot_attack_jugged_machette.gif",
+				},
+			},
+		},
 	}
 }
