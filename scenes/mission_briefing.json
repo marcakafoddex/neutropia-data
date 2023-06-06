@@ -104,27 +104,27 @@
 		},
 		{
 			"name": "character",
-			"pos": [344, 0, 1],
+			"pos": [351, 267, -1],
 			"children": [
 				{
 					"name": "character1",
 					"fileValue": "character1.portraitBig",
-					"anchor": [0, 0],
+					"anchor": [0, 1],
 				},
 				{
 					"name": "character2",
 					"fileValue": "character2.portraitBig",
-					"anchor": [0, 0],
+					"anchor": [0, 1],
 				},
 				{
 					"name": "character3",
 					"fileValue": "character3.portraitBig",
-					"anchor": [0, 0],
+					"anchor": [0, 1],
 				},
 				{
 					"name": "character4",
 					"fileValue": "character4.portraitBig",
-					"anchor": [0, 0],
+					"anchor": [0, 1],
 				},
 			],
 		},
