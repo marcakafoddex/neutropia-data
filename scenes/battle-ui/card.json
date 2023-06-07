@@ -39,36 +39,43 @@
 	"entities": [
 		{
 			"name": "FramesBase",
+			"file": "card_frame.png",
+			"anchor": [0.5, 1],
 			"children": [
 				{
 					"name": "BlueFrame",
-					"file": "card_frame_blue.png",
+					"file": "card_color_blue.png",
 					"visible": true,
 					"anchor": [0.5, 1],
+					"pos": [0, -3, 1],
 				},
 				{
 					"name": "BrownFrame",
-					"file": "card_frame_brown.png",
+					"file": "card_color_brown.png",
 					"visible": false,
 					"anchor": [0.5, 1],
+					"pos": [0, -3, 1],
 				},
 				{
 					"name": "GreenFrame",
-					"file": "card_frame_green.png",
+					"file": "card_color_green.png",
 					"visible": false,
 					"anchor": [0.5, 1],
+					"pos": [0, -3, 1],
 				},
 				{
 					"name": "PurpleFrame",
-					"file": "card_frame_purple.png",
+					"file": "card_color_purple.png",
 					"visible": false,
 					"anchor": [0.5, 1],
+					"pos": [0, -3, 1],
 				},
 				{
 					"name": "RedFrame",
-					"file": "card_frame_red.png",
+					"file": "card_color_red.png",
 					"visible": false,
 					"anchor": [0.5, 1],
+					"pos": [0, -3, 1],
 				}
 			],
 		},
@@ -341,7 +348,7 @@
 		},
 		{
 			"name": "CardPicture",
-			"file": "../../cards/the-foddie.png",
+			"file": "../../card_art/cardart_fullauto.png",
 			"pos": [-2, -70, -1],
 			"anchor": [0.5, 1],
 		},
