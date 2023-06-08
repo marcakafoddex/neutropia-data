@@ -81,7 +81,7 @@
 		},
 		{
 			"name": "RarityBase",
-			"pos": [-51, -117, 1],
+			"pos": [-50, -117, 1],
 			"children": [
 				{
 					"name": "RarityStarter",
@@ -117,7 +117,7 @@
 		},
 		{
 			"name": "AbilityBase",
-			"pos": [33, -119, 1],
+			"pos": [32, -119, 1],
 			"children": [
 				{
 					"name": "AbilityAkimbo",
@@ -153,7 +153,7 @@
 		},
 		{
 			"name": "SpecBase",
-			"pos": [40, -131, 1],
+			"pos": [41, -131, 1],
 			"children": [
 				{
 					"name": "SpecArmorHeavy",
@@ -234,7 +234,7 @@
 		},
 		{
 			"name": "CartidgeBase",
-			"pos": [-16, -125, 1],
+			"pos": [-15, -125, 1],
 			"children": [
 				{
 					"name": "CartidgeSlot0",
@@ -290,7 +290,7 @@
 		},
 		{
 			"name": "CardType",
-			"pos": [-1, 0, 1],
+			"pos": [-1, 1, 1],
 			"children": [
 				{
 					"name": "CardTypeAttack",
