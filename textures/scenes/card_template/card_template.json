@@ -1,0 +1,244 @@
+{"frames": [
+
+{
+	"filename": "card_color_blue.png",
+	"frame": {"x":2,"y":33,"w":94,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
+	"sourceSize": {"w":94,"h":138}
+},
+{
+	"filename": "card_color_brown.png",
+	"frame": {"x":98,"y":33,"w":94,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
+	"sourceSize": {"w":94,"h":138}
+},
+{
+	"filename": "card_color_green.png",
+	"frame": {"x":194,"y":33,"w":94,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
+	"sourceSize": {"w":94,"h":138}
+},
+{
+	"filename": "card_color_purple.png",
+	"frame": {"x":2,"y":173,"w":94,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
+	"sourceSize": {"w":94,"h":138}
+},
+{
+	"filename": "card_color_red.png",
+	"frame": {"x":98,"y":173,"w":94,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
+	"sourceSize": {"w":94,"h":138}
+},
+{
+	"filename": "card_frame.png",
+	"frame": {"x":194,"y":173,"w":108,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":152},
+	"sourceSize": {"w":108,"h":152}
+},
+{
+	"filename": "card_rarity_green_common.png",
+	"frame": {"x":9,"y":2,"w":8,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":29},
+	"sourceSize": {"w":8,"h":29}
+},
+{
+	"filename": "card_rarity_orange_epic.png",
+	"frame": {"x":19,"y":2,"w":8,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":29},
+	"sourceSize": {"w":8,"h":29}
+},
+{
+	"filename": "card_rarity_purple_rare.png",
+	"frame": {"x":29,"y":2,"w":8,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":29},
+	"sourceSize": {"w":8,"h":29}
+},
+{
+	"filename": "card_rarity_red_unique.png",
+	"frame": {"x":39,"y":2,"w":8,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":29},
+	"sourceSize": {"w":8,"h":29}
+},
+{
+	"filename": "card_rarity_white_starter.png",
+	"frame": {"x":49,"y":2,"w":8,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":29},
+	"sourceSize": {"w":8,"h":29}
+},
+{
+	"filename": "card_spec_armor_heavy.png",
+	"frame": {"x":195,"y":2,"w":14,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+	"sourceSize": {"w":14,"h":12}
+},
+{
+	"filename": "card_spec_armor_light.png",
+	"frame": {"x":70,"y":2,"w":10,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":8},
+	"sourceSize": {"w":10,"h":8}
+},
+{
+	"filename": "card_spec_armor_medium.png",
+	"frame": {"x":82,"y":2,"w":10,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
+	"sourceSize": {"w":10,"h":10}
+},
+{
+	"filename": "card_spec_automatic.png",
+	"frame": {"x":211,"y":2,"w":14,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":9},
+	"sourceSize": {"w":14,"h":9}
+},
+{
+	"filename": "card_spec_basher.png",
+	"frame": {"x":106,"y":2,"w":12,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":11},
+	"sourceSize": {"w":12,"h":11}
+},
+{
+	"filename": "card_spec_blade.png",
+	"frame": {"x":227,"y":2,"w":14,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":8},
+	"sourceSize": {"w":14,"h":8}
+},
+{
+	"filename": "card_spec_bow.png",
+	"frame": {"x":243,"y":2,"w":14,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
+	"sourceSize": {"w":14,"h":12}
+},
+{
+	"filename": "card_spec_brawl.png",
+	"frame": {"x":94,"y":2,"w":10,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":8},
+	"sourceSize": {"w":10,"h":8}
+},
+{
+	"filename": "card_spec_crossbow.png",
+	"frame": {"x":120,"y":2,"w":13,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":10},
+	"sourceSize": {"w":13,"h":10}
+},
+{
+	"filename": "card_spec_dart.png",
+	"frame": {"x":135,"y":2,"w":13,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":6},
+	"sourceSize": {"w":13,"h":6}
+},
+{
+	"filename": "card_spec_pistol.png",
+	"frame": {"x":59,"y":2,"w":9,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":8},
+	"sourceSize": {"w":9,"h":8}
+},
+{
+	"filename": "card_spec_polearm.png",
+	"frame": {"x":291,"y":2,"w":15,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":8},
+	"sourceSize": {"w":15,"h":8}
+},
+{
+	"filename": "card_spec_shotgun.png",
+	"frame": {"x":259,"y":2,"w":14,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":6},
+	"sourceSize": {"w":14,"h":6}
+},
+{
+	"filename": "card_spec_sniper.png",
+	"frame": {"x":275,"y":2,"w":14,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":8},
+	"sourceSize": {"w":14,"h":8}
+},
+{
+	"filename": "card_spec_spinner.png",
+	"frame": {"x":2,"y":2,"w":5,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":10},
+	"sourceSize": {"w":5,"h":10}
+},
+{
+	"filename": "card_weapon_ability_akimbo.png",
+	"frame": {"x":150,"y":2,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
+	"sourceSize": {"w":13,"h":12}
+},
+{
+	"filename": "card_weapon_ability_autofire.png",
+	"frame": {"x":165,"y":2,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
+	"sourceSize": {"w":13,"h":12}
+},
+{
+	"filename": "card_weapon_ability_piercing.png",
+	"frame": {"x":180,"y":2,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
+	"sourceSize": {"w":13,"h":12}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "card_template.png",
+	"format": "RGBA8888",
+	"size": {"w":327,"h":327},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:42921044df588481e73a8297b7b650a4:f963caf05372d2472425ca3be9250b97:f7cfd0855d8172e17bd2e25058d9a993$"
+}
+}
