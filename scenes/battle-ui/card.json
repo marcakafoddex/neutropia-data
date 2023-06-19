@@ -38,6 +38,12 @@
 	},
 	"entities": [
 		{
+			"name": "Outline",
+			"pos": [0, 2, -2],
+			"file": "card_selected_outline_blue.png",
+			"anchor": [0.5, 1],
+		},
+		{
 			"name": "FramesBase",
 			"file": "card_frame.png",
 			"anchor": [0.5, 1],
