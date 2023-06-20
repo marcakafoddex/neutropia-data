@@ -10,6 +10,42 @@
 			"border": false,
 			"shadow": false,
 		},
+		"energy": {
+			"path": "data/fonts/DS-DIGIB.TTF",
+			"size": 22,
+			"scale": 1,
+			"topColor": "#1af4ed",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+		"decksize": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#15bdc8",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
+		"decksizeYellow": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#fff340",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": false,
+		},
+	},
+	"audio": {
+		"channel": "Menu",
+	},
+	"defaults": {
+		"button": {
+			"eventTarget": "SceneRoot#Game",
+			"hoverSound": "MenuHover",
+			"clickSound": "MenuClick",
+		},
 	},
 	"entities": [
 		{
@@ -48,6 +84,83 @@
 		{
 			"name": "CardDeckView",
 			"pos": [320, 360, 0],
+		},
+		{
+			"name": "Energy",
+			"children": [
+				{
+					"file": "ui_nrg.png",
+					"pos": [30, 231, 0],
+					"anchor": [0, 0],
+					"children": [
+						{
+							"textValue": "hero.energy",
+							"textFont": "energy",
+							"achor": [0.5, 0.5],
+							"pos": [28, 27, 1],
+						}
+					]
+				},
+			],
+		},
+		{
+			"name": "Decks",
+			"children": [
+				{
+					"name": "DrawDeck",
+					"children": [
+						{
+							"file": "ui_draw_deck.png",
+							"anchor": [0, 1],
+							"pos": [30, 360, 1],
+							"children": [
+								{
+									"textValue": "hero.drawdeck.size",
+									"textFont": "decksize",
+									"anchor": [0.5, 0.5],
+									"pos": [23, -36, 2],
+								},
+							],
+						},
+					],
+				},
+				{
+					"name": "DiscardDeck",
+					"children": [
+						{
+							"file": "ui_discard_deck.png",
+							"anchor": [1, 1],
+							"pos": [610, 360, 1],
+							"children": [
+								{
+									"textValue": "hero.discarddeck.size",
+									"textFont": "decksize",
+									"anchor": [0.5, 0.5],
+									"pos": [-22, -36, 2],
+								},
+							]
+						},
+					]
+				},
+				{
+					"name": "ScrapDeck",
+					"file": "ui_widget_scrap_idle.png",
+					"anchor": [1, 1],
+					"pos": [633, 340, 1],
+					"button": {
+						"hover": "ui_widget_scrap_pressed.png",
+						"clickEvent": "NewRun",
+					},
+					"children": [
+						{
+							"textValue": "hero.scrapdeck.size",
+							"textFont": "decksizeYellow",
+							"anchor": [0.5, 0.5],
+							"pos": [-10, 0, 1],
+						},
+					]
+				}
+			],
 		}
 	],
 }
