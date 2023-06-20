@@ -40,8 +40,32 @@
 		{
 			"name": "Outline",
 			"pos": [0, 2, -2],
-			"file": "card_selected_outline_blue.png",
-			"anchor": [0.5, 1],
+			"children": [
+				{
+					"name": "OutlineBlue",
+					"file": "card_selected_outline_blue.png",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "OutlineOrange",
+					"file": "card_selected_outline_orange.png",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "OutlinePurple",
+					"file": "card_selected_outline_purple.png",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+				{
+					"name": "OutlineYellow",
+					"file": "card_selected_outline_yellow.png",
+					"anchor": [0.5, 1],
+					"visible": false,
+				},
+			]
 		},
 		{
 			"name": "FramesBase",
