@@ -238,7 +238,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">ui_endturn_Left.png</key>
+            <key type="filename">ui_endturn.png</key>
+            <key type="filename">ui_endturn_pressed.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -247,70 +248,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>9,9,17,18</rect>
+                <rect>18,10,35,19</rect>
                 <key>scale9Paddings</key>
-                <rect>9,9,17,18</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ui_endturn_left_pressed.png</key>
-            <key type="filename">ui_endturn_right_pressed.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>7,4,13,9</rect>
-                <key>scale9Paddings</key>
-                <rect>7,4,13,9</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ui_endturn_mid.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>1,9,1,17</rect>
-                <key>scale9Paddings</key>
-                <rect>1,9,1,17</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ui_endturn_mid_pressed.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>1,4,1,9</rect>
-                <key>scale9Paddings</key>
-                <rect>1,4,1,9</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">ui_endturn_right.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,10,17,19</rect>
-                <key>scale9Paddings</key>
-                <rect>9,10,17,19</rect>
+                <rect>18,10,35,19</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -530,12 +470,6 @@
                     <filename>ui_defence_rating.png</filename>
                     <filename>ui_discard_deck.png</filename>
                     <filename>ui_draw_deck.png</filename>
-                    <filename>ui_endturn_Left.png</filename>
-                    <filename>ui_endturn_left_pressed.png</filename>
-                    <filename>ui_endturn_mid.png</filename>
-                    <filename>ui_endturn_mid_pressed.png</filename>
-                    <filename>ui_endturn_right.png</filename>
-                    <filename>ui_endturn_right_pressed.png</filename>
                     <filename>ui_hero_window.png</filename>
                     <filename>ui_intent_attack_melee.png</filename>
                     <filename>ui_intent_attack_ranged.png</filename>
@@ -562,6 +496,8 @@
                     <filename>ui_widget_scrap_pressed.png</filename>
                     <filename>ui_widget_settings_idle.png</filename>
                     <filename>ui_widget_settings_pressed.png</filename>
+                    <filename>ui_endturn.png</filename>
+                    <filename>ui_endturn_pressed.png</filename>
                 </array>
             </struct>
         </map>

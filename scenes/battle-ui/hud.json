@@ -36,6 +36,24 @@
 			"borderColor": "#000000",
 			"shadow": false,
 		},
+		"decksizeYellow": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#ffc841",
+			"split" : 1,
+			"border": false,
+			"shadow": true,
+			"shadowColor": "#000000"
+		},
+		"endTurn": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"topColor": "#ffc841",
+			"split" : 1,
+			"border": false,
+			"shadow": true,
+			"shadowColor": "#000000"
+		},
 	},
 	"audio": {
 		"channel": "Menu",
@@ -161,6 +179,27 @@
 					]
 				}
 			],
-		}
+		},
+		{
+			"name": "EndTurn",
+			"file": "ui_endturn.png",
+			"fileMode": "9slice",
+			"pos": [610,238],
+			"anchor": [1.0, 0],
+			"9sliceCoords": [34,0,34,0],
+			"9slicePadding": [11,14,10,10],
+			"button": {
+				"hover": "ui_endturn_pressed.png",
+				"clickEvent": "EndTurn",
+			},
+			"children": [
+				{
+					"textKey": "game.endturn",
+					"textFont": "endTurn",
+					"pos": [0, 0, 1],
+					"anchor": [0, 0],
+				}
+			]
+		},
 	],
 }

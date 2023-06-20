@@ -140,13 +140,14 @@
 					"name": "Back",
 					"file": "briefing_menu_back_button_idle.png",
 					"fileMode": "9slice",
+					"9sliceCoords": [11,3,7,3],
+					"9slicePadding": [13,0,6,0],
+					"anchor": [0,0],
 					"button": {
 						"hover": "briefing_menu_back_button_highlighted.png",
 						"clickEvent": "Back",
 					},
 					"pos": [2,1],
-					"9sliceCoords": [11,3,7,3],
-					"9slicePadding": [13,0,6,0],
 					"children": [
 						{
 							"textKey": "generic.back",
