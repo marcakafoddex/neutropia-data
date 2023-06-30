@@ -1,6 +1,6 @@
 const float kAlphaThreshold = 0.7;
 
-vec4 renderOutlined(sampler2D sampler, vec2 uv, vec4 renderColor, vec3 borderColor, int haveBorder) {
+vec4 renderOutlined(sampler2D sampler, vec2 uv, vec4 renderColor, vec4 borderColor, int haveBorder) {
 	vec4 color = texture(sampler, uv) * renderColor;
 	if (color.a > kAlphaThreshold)
 		return vec4(color);
@@ -24,7 +24,7 @@ vec4 renderOutlined(sampler2D sampler, vec2 uv, vec4 renderColor, vec3 borderCol
 				(texture(sampler, vec2(uv.x, 							uv.y - nextPixelUvOffset.y	)) * renderColor).a > kAlphaThreshold ||
 				
 				false)
-				return vec4(borderColor, 1.0);
+				return borderColor;
 			else
 				return vec4(0.0, 0.0, 0.0, 0.0);
 		}

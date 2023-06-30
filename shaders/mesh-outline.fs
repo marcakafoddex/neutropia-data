@@ -10,5 +10,5 @@ uniform vec4 gBorderColor;
 
 void main()
 {
-	FragColor = renderOutlined(gTexture, vUv, vColor, gBorderColor.rgb, 1);
+	FragColor = renderOutlined(gTexture, vUv, vColor, gBorderColor, 1);
 }
