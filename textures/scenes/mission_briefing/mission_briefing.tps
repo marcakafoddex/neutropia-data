@@ -377,7 +377,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">briefing_menu_specs_armor_outlines_hover.png</key>
+            <key type="filename">briefing_menu_specs_armor_outline.png</key>
+            <key type="filename">briefing_menu_specs_armor_outline_hover.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -389,21 +390,6 @@
                 <rect>5,5,10,9</rect>
                 <key>scale9Paddings</key>
                 <rect>5,5,10,9</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">briefing_menu_specs_armor_outlines_idle.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>5,16,10,31</rect>
-                <key>scale9Paddings</key>
-                <rect>5,16,10,31</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -454,6 +440,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">briefing_menu_specs_wpn_outline.png</key>
             <key type="filename">briefing_menu_specs_wpn_outline_hover.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -481,21 +468,6 @@
                 <rect>6,5,11,9</rect>
                 <key>scale9Paddings</key>
                 <rect>6,5,11,9</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">briefing_menu_specs_wpn_outlines_idle.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>22,4,45,9</rect>
-                <key>scale9Paddings</key>
-                <rect>22,4,45,9</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -711,8 +683,6 @@
                     <filename>briefing_menu_skin_selected.png</filename>
                     <filename>briefing_menu_skin_table_highlighted.png</filename>
                     <filename>briefing_menu_skin_table_idle.png</filename>
-                    <filename>briefing_menu_specs_armor_outlines_hover.png</filename>
-                    <filename>briefing_menu_specs_armor_outlines_idle.png</filename>
                     <filename>briefing_menu_specs_armor_outlines_selected.png</filename>
                     <filename>briefing_menu_specs_arrow_hover.png</filename>
                     <filename>briefing_menu_specs_arrow_idle.png</filename>
@@ -720,7 +690,6 @@
                     <filename>briefing_menu_specs_scroller_idle.png</filename>
                     <filename>briefing_menu_specs_wpn_outline_hover.png</filename>
                     <filename>briefing_menu_specs_wpn_outline_selected.png</filename>
-                    <filename>briefing_menu_specs_wpn_outlines_idle.png</filename>
                     <filename>briefing_menu_vfx_health.png</filename>
                     <filename>briefing_menu_vfx_level.png</filename>
                     <filename>briefing_spec_armor_heavy.png</filename>
@@ -738,6 +707,9 @@
                     <filename>briefing_spec_shotgun.png</filename>
                     <filename>briefing_spec_sniper.png</filename>
                     <filename>briefing_spec_spinner.png</filename>
+                    <filename>briefing_menu_specs_armor_outline.png</filename>
+                    <filename>briefing_menu_specs_armor_outline_hover.png</filename>
+                    <filename>briefing_menu_specs_wpn_outline.png</filename>
                 </array>
             </struct>
         </map>

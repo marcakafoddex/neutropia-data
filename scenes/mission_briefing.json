@@ -28,6 +28,15 @@
 			"shadowColor": "#000000",
 			"shadowOffset": [0, 2],
 		},
+		"specializationGroup": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#ffffff",
+			"split" : 1,
+			"border": false,
+			"shadow": false,
+		},
 		"difficulty": {
 			"path": "data/fonts/LanaPixel.ttf",
 			"size": 13,
@@ -470,6 +479,79 @@
 							"textFont": "fontTitle",
 							"pos": [164, 238],
 							"anchor": [0.5, 0.5],
+						},
+					],
+				},
+				{
+					"name": "SpecializationsContainer",
+					"pos": [32, 258, 1],
+					"children": [
+						{
+							"name": "SpecializationsWeaponContainerArmor",
+							"children": [
+								{
+									"textKey": "newrun.specializations.group.armor",
+									"textFont": "specializationGroup",
+									"pos": [24, 0],
+									"anchor": [0.5, 0],
+								},
+								{
+									"name": "Specialization#ArmorLight",
+									"pos": [12, 20],
+								},
+								{
+									"name": "Specialization#ArmorMedium",
+									"pos": [12, 42],
+								},
+								{
+									"name": "Specialization#ArmorHeavy",
+									"pos": [12, 64],
+								},
+							],
+						},
+						{
+							"name": "SpecializationsWeaponContainerMelee",
+							"pos": [55, 0],
+							"children": [
+								{
+									"textKey": "newrun.specializations.group.melee",
+									"textFont": "specializationGroup",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"name": "SpecializationsWeaponContainerSubsonic",
+							"pos": [155, 0],
+							"children": [
+								{
+									"textKey": "newrun.specializations.group.subsonic",
+									"textFont": "specializationGroup",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"name": "SpecializationsWeaponContainerFirearms",
+							"pos": [55, 40],
+							"children": [
+								{
+									"textKey": "newrun.specializations.group.firearms",
+									"textFont": "specializationGroup",
+									"anchor": [0, 0],
+								},
+							],
+						},
+						{
+							"name": "SpecializationsWeaponContainerSciTech",
+							"pos": [155, 40],
+							"children": [
+								{
+									"textKey": "newrun.specializations.group.scitech",
+									"textFont": "specializationGroup",
+									"anchor": [0, 0],
+								},
+							],
 						},
 					],
 				},
