@@ -492,7 +492,7 @@
 								{
 									"textKey": "newrun.specializations.group.armor",
 									"textFont": "specializationGroup",
-									"pos": [24, 0],
+									"pos": [24, 3],
 									"anchor": [0.5, 0],
 								},
 								{
@@ -529,7 +529,7 @@
 						},
 						{
 							"name": "SpecializationsWeaponContainerMelee",
-							"pos": [55, 0],
+							"pos": [55, 3],
 							"children": [
 								{
 									"textKey": "newrun.specializations.group.melee",
@@ -538,7 +538,7 @@
 								},
 								{
 									"name": "Specialization#Brawl",
-									"pos": [0, 15],
+									"pos": [0, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -548,7 +548,7 @@
 								},
 								{
 									"name": "Specialization#Blade",
-									"pos": [22, 15],
+									"pos": [22, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -558,7 +558,7 @@
 								},
 								{
 									"name": "Specialization#Basher",
-									"pos": [44, 15],
+									"pos": [44, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -568,7 +568,7 @@
 								},
 								{
 									"name": "Specialization#Polearm",
-									"pos": [66, 15],
+									"pos": [66, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -580,7 +580,7 @@
 						},
 						{
 							"name": "SpecializationsWeaponContainerSubsonic",
-							"pos": [155, 0],
+							"pos": [155, 3],
 							"children": [
 								{
 									"textKey": "newrun.specializations.group.subsonic",
@@ -589,7 +589,7 @@
 								},
 								{
 									"name": "Specialization#Dart",
-									"pos": [0, 15],
+									"pos": [0, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -599,7 +599,7 @@
 								},
 								{
 									"name": "Specialization#Bow",
-									"pos": [22, 15],
+									"pos": [22, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -609,7 +609,7 @@
 								},
 								{
 									"name": "Specialization#Crossbow",
-									"pos": [44, 15],
+									"pos": [44, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -619,7 +619,7 @@
 								},
 								{
 									"name": "Specialization#Spinner",
-									"pos": [66, 15],
+									"pos": [66, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -631,7 +631,7 @@
 						},
 						{
 							"name": "SpecializationsWeaponContainerFirearms",
-							"pos": [55, 40],
+							"pos": [55, 44],
 							"children": [
 								{
 									"textKey": "newrun.specializations.group.firearms",
@@ -640,7 +640,7 @@
 								},
 								{
 									"name": "Specialization#Pistol",
-									"pos": [0, 15],
+									"pos": [0, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -650,7 +650,7 @@
 								},
 								{
 									"name": "Specialization#Shotgun",
-									"pos": [22, 15],
+									"pos": [22, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -660,7 +660,7 @@
 								},
 								{
 									"name": "Specialization#Automatic",
-									"pos": [44, 15],
+									"pos": [44, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -670,7 +670,7 @@
 								},
 								{
 									"name": "Specialization#Sniper",
-									"pos": [66, 15],
+									"pos": [66, 18],
 									"children": [
 										{
 											"name": "Icon",
@@ -682,7 +682,7 @@
 						},
 						{
 							"name": "SpecializationsWeaponContainerSciTech",
-							"pos": [155, 40],
+							"pos": [155, 44],
 							"children": [
 								{
 									"textKey": "newrun.specializations.group.scitech",
