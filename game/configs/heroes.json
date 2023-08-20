@@ -12,10 +12,7 @@
 			"description": "characters.maggot.description",
 			"bio": "characters.maggot.bio",
 		},
-		"stats": {
-			"baseHealth": 60,
-		},
-		"arX3": {
+		"x3assaultrifle": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -26,7 +23,7 @@
 				},
 			},
 		},
-		"juggedMachette": {
+		"jaggedmachete": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
@@ -51,10 +48,7 @@
 			"description": "characters.maggot.description",
 			"bio": "characters.maggot.bio",
 		},
-		"stats": {
-			"baseHealth": 60,
-		},
-		"arX3": {
+		"x3assaultrifle": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -65,7 +59,7 @@
 				},
 			},
 		},
-		"juggedMachette": {
+		"jaggedmachete": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
@@ -90,10 +84,7 @@
 			"description": "characters.maggot.description",
 			"bio": "characters.maggot.bio",
 		},
-		"stats": {
-			"baseHealth": 60,
-		},
-		"arX3": {
+		"x3assaultrifle": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -104,7 +95,7 @@
 				},
 			},
 		},
-		"juggedMachette": {
+		"jaggedmachete": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
@@ -129,10 +120,7 @@
 			"description": "characters.maggot.description",
 			"bio": "characters.maggot.bio",
 		},
-		"stats": {
-			"baseHealth": 60,
-		},
-		"arX3": {
+		"x3assaultrifle": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_arX3.gif",
@@ -143,7 +131,7 @@
 				},
 			},
 		},
-		"juggedMachette": {
+		"jaggedmachete": {
 			"animations": {
 				"idle": {
 					"path": "data/textures/sequences/Maggot_idle_jugged_machette.gif",
