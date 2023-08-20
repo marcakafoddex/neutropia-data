@@ -41,8 +41,8 @@
 			"size": 13,
 			"topColor": "#ffc841",
 			"split" : 1,
-			"border": false,
-			"shadow": true,
+			"border": true,
+			"shadow": false,
 			"shadowColor": "#000000"
 		},
 		"endTurn": {
