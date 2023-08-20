@@ -364,7 +364,7 @@
 			"anchor": [0.5, 0.5],
 		},
 		{
-			"name": "CardPicture",
+			"name": "CardArt",
 			"file": "../../card_art/cardart_fullauto.png",
 			"pos": [-1, -70, -1],
 			"anchor": [0.5, 1],
