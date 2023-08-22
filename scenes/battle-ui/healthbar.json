@@ -28,6 +28,7 @@
 			"fileMode": "9slice",
 			"9sliceCoords": [4,3,4,3],
 			"9slicePadding": [3,3,3,3],
+			"anchor": [0, 0],
 			"children": [
 				{
 					"name": "MaxHealth",
