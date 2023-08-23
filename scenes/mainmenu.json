@@ -35,7 +35,7 @@
 					"anchor": [0, 0],
 				},
 				{
-					"pos": [610, 112, 1],
+					"pos": [598, 144, 1],
 					"children": [
 						{
 							"textKey": "menu.new_run",
