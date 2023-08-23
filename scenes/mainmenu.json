@@ -5,9 +5,9 @@
 		"menu": {
 			"path": "data/fonts/LanaPixel.ttf",
 			"size": 13,
-			"scale": 2,
-			"topColor": "#f3e59e",
-			"bottomColor": "#e69e4a",
+			"scale": 1,
+			"topColor": "#fff",
+			"bottomColor": "#fff",
 			"split" : 0.55,
 			"border": true,
 			"borderColor": "#000000",
@@ -35,12 +35,12 @@
 					"anchor": [0, 0],
 				},
 				{
-					"pos": [10, 96, 1],
+					"pos": [610, 112, 1],
 					"children": [
 						{
 							"textKey": "menu.new_run",
 							"textFont": "menu",
-							"anchor": [0, 0],
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "NewRun",
 							},
@@ -49,38 +49,38 @@
 						{
 							"textKey": "menu.database",
 							"textFont": "menu",
-							"anchor": [0, 0],
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Database",
 							},
-							"y": 30,
+							"y": 15,
 						},
 						{
 							"textKey": "menu.settings",
 							"textFont": "menu",
-							"anchor": [0, 0],
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Settings",
 							},
-							"y": 60,
+							"y": 30,
 						},
 						{
 							"textKey": "menu.credits",
 							"textFont": "menu",
-							"anchor": [0, 0],
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Credits",
 							},
-							"y": 90,
+							"y": 45,
 						},
 						{
 							"textKey": "menu.quit_game",
 							"textFont": "menu",
-							"anchor": [0, 0],
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "QuitGame",
 							},
-							"y": 120,
+							"y": 60,
 						},
 					]
 				},
