@@ -5,33 +5,75 @@
 		{
 			"name": "player",
 			"pos": [141, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		
 		{
 			"name": "enemy1_0",
 			"pos": [470, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		
 		{
 			"name": "enemy2_0",
 			"pos": [412, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		{
 			"name": "enemy2_1",
 			"pos": [532, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		
 		{
 			"name": "enemy3_0",
 			"pos": [362, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		{
 			"name": "enemy3_1",
 			"pos": [470, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 		{
 			"name": "enemy3_2",
 			"pos": [578, 212],
+			"children": [
+				{
+					"name": "effectAnchor",
+					"pos": [0, -100, 50],
+				}
+			]
 		},
 	],
 }
