@@ -31,7 +31,7 @@
 			"children": [
 				{
 					"file": "gametitle.png",
-					"pos": [10, 20, 1],
+					"pos": [160, 25, 1],
 					"anchor": [0, 0],
 				},
 				{
