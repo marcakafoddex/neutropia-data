@@ -26,12 +26,17 @@
 	},
 	"entities": [
 		{
-			"file": "background.png",
+			"file": "mainmenu_background.png",
 			"anchor": [0, 0],
 			"children": [
 				{
 					"file": "gametitle.png",
 					"pos": [160, 25, 1],
+					"anchor": [0, 0],
+				},
+				{
+					"file": "mainmenu_flag.gif",
+					"pos": [350, 222, 1],
 					"anchor": [0, 0],
 				},
 				{
