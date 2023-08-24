@@ -126,11 +126,11 @@
 			"children": [
 				{
 					"name": "DrawDeck",
+					"pos": [30, 360, 1],
 					"children": [
 						{
 							"file": "ui_draw_deck.png",
 							"anchor": [0, 1],
-							"pos": [30, 360, 1],
 							"children": [
 								{
 									"textValue": "hero.drawdeck.size",
@@ -144,11 +144,11 @@
 				},
 				{
 					"name": "DiscardDeck",
+					"pos": [610, 360, 1],
 					"children": [
 						{
 							"file": "ui_discard_deck.png",
 							"anchor": [1, 1],
-							"pos": [610, 360, 1],
 							"children": [
 								{
 									"textValue": "hero.discarddeck.size",
