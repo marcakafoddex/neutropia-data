@@ -1,8 +1,0 @@
-{
-	"keyframes": [
-		{ "type": "translation", "tween": "CubicInOut", "time": 0, "value": [0, -600, 0] },
-		{ "type": "translation", "tween": "CubicInOut", "time": 0.5, "value": [0, -40, 0] },
-		{ "type": "translation", "tween": "Linear", "time": 1.75, "value": [0, 40, 0] },
-		{ "type": "translation", "tween": "CubicInOut", "time": 2.25, "value": [0, 600, 0] },
-	]
-}
