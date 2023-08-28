@@ -30,8 +30,8 @@
 			"anchor": [0, 0],
 			"children": [
 				{
-					"file": "gametitle.png",
-					"pos": [160, 25, 1],
+					"file": "gametitle_animation.apng",
+					"pos": [-90, -95, 1],
 					"anchor": [0, 0],
 				},
 				{
