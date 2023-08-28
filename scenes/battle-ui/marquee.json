@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/card_template",
+	"fonts": {
+		"marquee": {
+			"path": "data/fonts/good timing bd.ttf",
+			"size": 19,
+			"scale": 2,
+			"topColor": "#1af4ed",
+			"split" : 1.0,
+			"border": true,
+			"borderColor": "#000000",
+			"shadow": true,
+		},
+	},
+	"entities": [
+		{
+			"name": "marqueeText",
+			"textValue": "marqueeText",
+			"textFont": "marquee",
+			"textAlign": "center",
+			"textWrap": true,
+			"textMaxWidth": 350,
+			"anchor": [0.5, 0.5],
+		}
+	],
+}
