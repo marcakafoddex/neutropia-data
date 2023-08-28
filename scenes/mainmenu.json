@@ -35,8 +35,15 @@
 					"anchor": [0, 0],
 				},
 				{
+					"name": "Flag",
 					"file": "mainmenu_flag.gif",
 					"pos": [350, 222, 1],
+					"anchor": [0, 0],
+				},
+				{
+					"name": "Eye",
+					"file": "mainmenu_eye.gif",
+					"pos": [34, 96, 1],
 					"anchor": [0, 0],
 				},
 				{
