@@ -1,0 +1,9 @@
+{
+	"version": 1,
+	"entities": [
+		{
+			"name": "IntentAnchor",
+			"pos": [0, -125, 5],
+		},
+	]
+}

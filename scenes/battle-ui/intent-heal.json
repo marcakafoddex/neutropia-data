@@ -1,0 +1,10 @@
+{
+	"version": 1,
+	"textureDirectory": "data/textures/scenes/combat_ui",
+	"entities": [
+		{
+			"file": "ui_intent_heal.png",
+			"anchor": [0.5, 0.5],
+		},
+	]
+}
