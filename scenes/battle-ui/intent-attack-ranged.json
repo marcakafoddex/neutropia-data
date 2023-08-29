@@ -4,7 +4,7 @@
 	"fonts": {
 		"intentValue": {
 			"path": "data/fonts/good timing bd.ttf",
-			"size": 19,
+			"size": 25,
 			"topColor": "#ffffff",
 			"split" : 1,
 			"border": true,
