@@ -362,21 +362,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">ui_status_bleed.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>2,3,3,5</rect>
-                <key>scale9Paddings</key>
-                <rect>2,3,3,5</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">ui_status_counterstrike.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -482,7 +467,6 @@
                     <filename>ui_lp_red_pixel.png</filename>
                     <filename>ui_lp_yellow_pixel.png</filename>
                     <filename>ui_nrg.png</filename>
-                    <filename>ui_status_bleed.png</filename>
                     <filename>ui_status_counterstrike.png</filename>
                     <filename>ui_status_radiation.png</filename>
                     <filename>ui_status_tag.png</filename>

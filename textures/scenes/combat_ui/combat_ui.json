@@ -2,7 +2,7 @@
 
 {
 	"filename": "sprite_shadow_medium.png",
-	"frame": {"x":71,"y":2,"w":98,"h":13},
+	"frame": {"x":62,"y":2,"w":98,"h":13},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":13},
@@ -18,7 +18,7 @@
 },
 {
 	"filename": "ui_defence_rating.png",
-	"frame": {"x":190,"y":2,"w":17,"h":18},
+	"frame": {"x":181,"y":2,"w":17,"h":18},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":18},
@@ -82,7 +82,7 @@
 },
 {
 	"filename": "ui_intent_buff.png",
-	"frame": {"x":171,"y":2,"w":17,"h":15},
+	"frame": {"x":162,"y":2,"w":17,"h":15},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":15},
@@ -153,16 +153,8 @@
 	"sourceSize": {"w":58,"h":56}
 },
 {
-	"filename": "ui_status_bleed.png",
-	"frame": {"x":26,"y":2,"w":7,"h":11},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":11},
-	"sourceSize": {"w":7,"h":11}
-},
-{
 	"filename": "ui_status_counterstrike.png",
-	"frame": {"x":35,"y":2,"w":8,"h":11},
+	"frame": {"x":26,"y":2,"w":8,"h":11},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":11},
@@ -170,7 +162,7 @@
 },
 {
 	"filename": "ui_status_radiation.png",
-	"frame": {"x":45,"y":2,"w":11,"h":11},
+	"frame": {"x":36,"y":2,"w":11,"h":11},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":11},
@@ -178,7 +170,7 @@
 },
 {
 	"filename": "ui_status_tag.png",
-	"frame": {"x":58,"y":2,"w":11,"h":11},
+	"frame": {"x":49,"y":2,"w":11,"h":11},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":11},
@@ -271,6 +263,6 @@
 	"format": "RGBA8888",
 	"size": {"w":215,"h":215},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:6fd38ee093b45f7390d8b8244193ab09:23c43ce9478cf40d8ef76ec964087af6:f3b671bdbc636faf2476778478c829ac$"
+	"smartupdate": "$TexturePacker:SmartUpdate:aaf7638ca675570f5a38c85aa06a0690:4be59a730f6dafe0555376b1b51ce9d5:f3b671bdbc636faf2476778478c829ac$"
 }
 }
