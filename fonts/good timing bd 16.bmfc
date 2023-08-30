@@ -1,0 +1,64 @@
+# AngelCode Bitmap Font Generator configuration file
+fileVersion=1
+
+# font settings
+fontName=Good Timing Rg
+fontFile=good timing bd.ttf
+charSet=0
+fontSize=16
+aa=1
+scaleH=100
+useSmoothing=0
+isBold=0
+isItalic=0
+useUnicode=1
+disableBoxChars=1
+outputInvalidCharGlyph=1
+dontIncludeKerningPairs=1
+useHinting=1
+renderFromOutline=0
+useClearType=1
+autoFitNumPages=0
+autoFitFontSizeMin=0
+autoFitFontSizeMax=0
+
+# character alignment
+paddingDown=1
+paddingUp=1
+paddingRight=1
+paddingLeft=1
+spacingHoriz=1
+spacingVert=1
+useFixedHeight=0
+forceZero=0
+widthPaddingFactor=0.00
+
+# output file
+outWidth=512
+outHeight=256
+outBitDepth=32
+fontDescFormat=0
+fourChnlPacked=0
+textureFormat=png
+textureCompression=0
+alphaChnl=1
+redChnl=1
+greenChnl=1
+blueChnl=1
+invA=0
+invR=0
+invG=0
+invB=0
+
+# outline
+outlineThickness=0
+
+# selected chars
+chars=32-126,160-172,174-180,182-263,266-283,286-291,294-307,310-311,313-318,321-328,330-347,350-353,356
+chars=357-363,366-382,398-399,402,404,413,416-417,431-432,477,486-487,500-501,504-505,536-537,567,577
+chars=578,588-589,710-711,728-733,768-772,774-780,787,795,803,806,808,813,900-906,908,910-929,931-974
+chars=1024-1119,1168-1171,1174-1179,1184-1187,1194-1195,1198-1203,1206-1207,1210-1211,1216,1219-1220,1223
+chars=1224,1231,1240-1241,1250-1251,1256-1257,1262-1263,8211-8212,8216-8218,8220-8222,8224-8226,8230,8240
+chars=8249-8250,8260
+
+# imported icon images
