@@ -1,0 +1,7 @@
+{
+	"keyframes": [
+		{ "type": "color", "time": 0.0, "value": [1,1,1,1] },
+		{ "type": "color", "time": 0.5, "value": [1,0,0,1] },
+		{ "type": "color", "time": 1.0, "value": [1,1,1,1] },
+	]
+}
