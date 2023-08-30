@@ -21,7 +21,7 @@
 			"scale": 1,
 			"topColor": "#f3e59e",
 			"bottomColor": "#e69e4a",
-			"split" : 0.55,
+			"split" : 0.58,
 			"border": false,
 			"borderColor": "#ff0000",
 			"shadow": true,

@@ -1,9 +1,13 @@
 #include "tools/color.glsl"
 
+// IN: fixed
 layout (location = 0) in vec3 Position;
 layout (location = 5) in vec4 Color;
+
+// IN: instanced
 layout (location = 6/*+7+8+9*/) in mat4 WorldMatrix;
 
+// OUT
 layout (location = 0) flat out vec3 startPos;
 layout (location = 1) out vec3 vertPos;
 layout (location = 2) out vec4 vColor;
