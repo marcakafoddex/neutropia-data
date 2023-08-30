@@ -16,7 +16,7 @@
 			"shadowOffset": [0, 1],
 		},
 		"fontTitle": {
-			"path": "data/fonts/good timing bd 20.fnt",
+			"path": "data/fonts/good timing bd 24.fnt",
 			"size": 19,
 			"scale": 1,
 			"topColor": "#f3e59e",
@@ -66,7 +66,7 @@
 			"shadow": false,
 		},
 		"characterBigName": {
-			"path": "data/fonts/good timing bd 20.fnt",
+			"path": "data/fonts/good timing bd 24.fnt",
 			"size": 29,
 			"scale": 1,
 			"topColor": "#ffffff",

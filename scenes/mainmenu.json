@@ -48,12 +48,12 @@
 					"anchor": [0, 0],
 				},
 				{
-					"pos": [608, 144, 1],
+					"pos": [598, 144, 1],
 					"children": [
 						{
 							"textKey": "menu.new_run",
 							"textFont": "menu",
-							"textAlign": "right",
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "NewRun",
 							},
@@ -62,7 +62,7 @@
 						{
 							"textKey": "menu.database",
 							"textFont": "menu",
-							"textAlign": "right",
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Database",
 							},
@@ -71,7 +71,7 @@
 						{
 							"textKey": "menu.settings",
 							"textFont": "menu",
-							"textAlign": "right",
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Settings",
 							},
@@ -80,7 +80,7 @@
 						{
 							"textKey": "menu.credits",
 							"textFont": "menu",
-							"textAlign": "right",
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "Credits",
 							},
@@ -89,7 +89,7 @@
 						{
 							"textKey": "menu.quit_game",
 							"textFont": "menu",
-							"textAlign": "right",
+							"anchor": [1, 0],
 							"button": {
 								"clickEvent": "QuitGame",
 							},
