@@ -31,5 +31,5 @@ void main()
 		textColor = gTopColor;
 	else
 		textColor = gBottomColor;		
-	FragColor = renderOutlined(gTexture, vUv, vColor * vec4(textColor, 1.0), vec4(gBorderColor, 1.0), gHaveBorder, 1);
+	FragColor = renderOutlined(gTexture, vUv, vColor * vec4(textColor, 1.0), vec4(gBorderColor, 1.0), gHaveBorder, 1, 0.6);
 }
