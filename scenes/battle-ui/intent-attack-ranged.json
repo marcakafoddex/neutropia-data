@@ -3,7 +3,7 @@
 	"textureDirectory": "data/textures/scenes/combat_ui",
 	"fonts": {
 		"intentValue": {
-			"path": "data/fonts/good timing bd.ttf",
+			"path": "data/fonts/good timing 22.fnt",
 			"size": 25,
 			"topColor": "#ffffff",
 			"split" : 1,
