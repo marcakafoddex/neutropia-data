@@ -3,7 +3,7 @@
 	"textureDirectory": "data/textures/scenes/map",
 	"fonts": {
 		"legend": {
-			"path": "data/fonts/good timing bd.ttf",
+			"path": "data/fonts/good timing bd 22.fnt",
 			"size": 19,
 			"scale": 1,
 			"topColor": "#00b88e",

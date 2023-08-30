@@ -3,9 +3,9 @@
 	"textureDirectory": "data/textures/scenes/card_template",
 	"fonts": {
 		"marquee": {
-			"path": "data/fonts/good timing bd.ttf",
+			"path": "data/fonts/good timing bd 32.fnt",
 			"size": 19,
-			"scale": 2,
+			"scale": 1,
 			"topColor": "#f00",
 			"split" : 1.0,
 			"border": true,
@@ -20,7 +20,7 @@
 			"textFont": "marquee",
 			"textAlign": "center",
 			"textWrap": true,
-			"textMaxWidth": 350,
+			"textMaxWidth": 400,
 			"anchor": [0.5, 0.5],
 		}
 	],
