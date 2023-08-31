@@ -11,8 +11,5 @@
 				"path": "data/textures/sequences/neurositer_struck.png",
 			},
 		},
-		"stats": {
-			"baseHealth": 24,
-		}
 	},
 }
