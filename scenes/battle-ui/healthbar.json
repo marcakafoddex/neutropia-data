@@ -20,6 +20,14 @@
 			"borderColor": "#1831a1",
 			"shadow": false,
 		},
+		"effect": {
+			"path": "data/fonts/minidigits.fnt",
+			"topColor": "#fff",
+			"split" : 1,
+			"border": true,
+			"borderColor": "#000",
+			"shadow": false,
+		},
 	},
 	"entities": [
 		{
@@ -65,6 +73,116 @@
 					"z": 1,
 				}
 			]
+		},
+		{
+			"name": "Effects",
+			"pos": [4, 9, 1],
+			"children": [
+				{
+					"name": "Combo",
+					"file": "ui_status_combo.png",
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "combo",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Dodge",
+					"file": "ui_status_dodge.png",
+					"x": 12,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "dodge",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Radiation",
+					"file": "ui_status_radiation.png",
+					"x": 24,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "radiation",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Rend",
+					"file": "ui_status_rend.png",
+					"x": 36,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "rend",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Suppress",
+					"file": "ui_status_suppress.png",
+					"x": 48,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "suppress",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Tag",
+					"file": "ui_status_tag.png",
+					"x": 60,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "tag",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+				{
+					"name": "Taunt",
+					"file": "ui_status_taunt.png",
+					"x": 72,
+					"anchor": [0, 0],
+					"children": [
+						{
+							"name": "Text",
+							"pos": [0, 6, 1],
+							"textValue": "taunt",
+							"textFont": "effect",
+							"anchor": [0.5, 0],
+						},
+					],
+				},
+			],
 		},
 	]
 }
