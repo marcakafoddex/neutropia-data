@@ -11,7 +11,7 @@
 			"borderColor": "#000000",
 			"shadow": false,
 		},
-		"armor": {
+		"defense": {
 			"path": "data/fonts/LanaPixel.ttf",
 			"size": 13,
 			"topColor": "#1af4ed",
@@ -52,16 +52,16 @@
 			"anchor": [0.5, 0.5],
 		},
 		{
-			"name": "Armor",
+			"name": "Defense",
 			"pos": [-9, 4, 1],
 			"children": [
 				{
 					"file": "ui_defence_rating.png",
 				},
 				{
-					"name": "ArmorText",
-					"textValue": "armor",
-					"textFont": "armor",
+					"name": "DefenseText",
+					"textValue": "defense",
+					"textFont": "defense",
 					"z": 1,
 				}
 			]
