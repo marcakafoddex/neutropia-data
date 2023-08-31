@@ -10,6 +10,9 @@
 			"struck": {
 				"path": "data/textures/sequences/neurositer_struck.png",
 			},
+			"buff+debuff": {
+				"path": "data/textures/sequences/neurositer_buff+debuff.gif",
+			},
 		},
 	},
 }
