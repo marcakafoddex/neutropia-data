@@ -15,4 +15,36 @@
 			},
 		},
 	},
+	"carriomite": {
+		"animations": {
+			"idle": {
+				"path": "data/textures/sequences/carriomite_idle.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/carriomite_attack.gif",
+			},
+			"struck": {
+				"path": "data/textures/sequences/carriomite_struck.png",
+			},
+			"buff+debuff": {
+				"path": "data/textures/sequences/carriomite_buff+debuff.gif",
+			},
+		},
+	},
+	"beetlewasp": {
+		"animations": {
+			"idle": {
+				"path": "data/textures/sequences/beetlewasp_idle.gif",
+			},
+			"attack": {
+				"path": "data/textures/sequences/beetlewasp_attack.gif",
+			},
+			"struck": {
+				"path": "data/textures/sequences/beetlewasp_struck.png",
+			},
+			"buff+debuff": {
+				"path": "data/textures/sequences/beetlewasp_buff+debuff.gif",
+			},
+		},
+	},
 }
