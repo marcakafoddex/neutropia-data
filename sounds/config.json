@@ -6,5 +6,7 @@
 	"sounds": {
 		"MenuClick": "data/sounds/click.wav",
 		"MenuHover": "data/sounds/mouseover.wav",
+		"Weapons.3assaultrifle": "data/sounds/weapons/blade.wav",
+		"Weapons.jaggedmachete": "data/sounds/weapons/blade.wav",
 	}
 }
