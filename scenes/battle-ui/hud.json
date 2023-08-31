@@ -69,9 +69,12 @@
 		{
 			"name": "SettingsButton",
 			"file": "ui_widget_settings_idle.png",
-			"fileCursorOver": "ui_widget_settings_pressed.png",
 			"anchor": [0, 0],
 			"pos": [617, 7],
+			"button": {
+				"hover": "ui_widget_settings_pressed.png",
+				"clickEvent": "BackToMainMenu",
+			},
 		},
 		{
 			"file": "ui_hero_window.png",
