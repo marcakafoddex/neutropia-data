@@ -8,5 +8,6 @@
 		"MenuHover": "data/sounds/mouseover.wav",
 		"Weapons.x3assaultrifle": "data/sounds/weapons/machinegun.wav",
 		"Weapons.jaggedmachete": "data/sounds/weapons/blade.wav",
+		"Hud.CardFlip": "data/sounds/cardflip.wav",
 	}
 }
