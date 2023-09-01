@@ -1,0 +1,7 @@
+{
+	"keyframes": [
+		{ "type": "translation", "tween": "SinusoidalInOut", "time": 0.00, "value": [0, 0, 0] },
+		{ "type": "translation", "tween": "SinusoidalInOut", "time": 0.50, "value": [0, -5, 0] },
+		{ "type": "translation", "tween": "SinusoidalInOut", "time": 1.00, "value": [0, 0, 0] },
+	]
+}

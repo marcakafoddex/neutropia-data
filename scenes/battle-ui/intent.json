@@ -4,6 +4,11 @@
 		{
 			"name": "IntentAnchor",
 			"pos": [0, -125, 5],
+			"animations": [{
+				"path": "data/animations/intent-hover.json",
+				"weight": 1.0,
+				"speed": 0.5,
+			}]
 		},
 	]
 }
