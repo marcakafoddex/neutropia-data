@@ -143,6 +143,12 @@
 								},
 							],
 						},
+						{
+							"name": "BackOfCard",
+							"file": "ui_card_back.png",
+							"anchor": [0, 1],
+							"pos": [6, 0, -1],
+						},
 					],
 				},
 				{
@@ -160,6 +166,13 @@
 									"pos": [-22, -36, 2],
 								},
 							]
+						},
+						{
+							"name": "BackOfCard",
+							"file": "ui_card_back.png",
+							"anchor": [1, 1],
+							"pos": [-8, 0, -1],
+							"visible": false,
 						},
 					]
 				},
