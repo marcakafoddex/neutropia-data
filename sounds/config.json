@@ -13,5 +13,7 @@
 		"Hud.CardFlip": "data/sounds/cardflip.wav",
 		
 		"Monster.Attack.neurositer": "data/sounds/monsters/neurositer.wav",
+		"Monster.Attack.beetlewasp": "data/sounds/monsters/beetlewasp.wav",
+		"Monster.Attack.carriomite": "data/sounds/monsters/carriomite.wav",
 	}
 }
