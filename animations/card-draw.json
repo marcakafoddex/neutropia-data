@@ -1,0 +1,9 @@
+{
+	"keyframes": [
+		{ "type": "color", "time": 0, "tween": "CubicInOut", "value": [1,1,1,0] },
+		{ "type": "color", "time": 1, "tween": "CubicInOut", "value": [1,1,1,1] },
+		
+		{ "type": "scale", "time": 0, "tween": "CubicInOut", "value": [0.0, 0.0, 1.0] },
+		{ "type": "scale", "time": 0.75, "tween": "CubicInOut", "value": [1.0, 1.0, 1.0] },
+	]
+}
