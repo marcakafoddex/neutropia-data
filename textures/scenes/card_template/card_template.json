@@ -2,7 +2,7 @@
 
 {
 	"filename": "card_color_blue.png",
-	"frame": {"x":2,"y":33,"w":94,"h":138},
+	"frame": {"x":19,"y":33,"w":94,"h":138},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
@@ -10,7 +10,7 @@
 },
 {
 	"filename": "card_color_brown.png",
-	"frame": {"x":98,"y":33,"w":94,"h":138},
+	"frame": {"x":115,"y":33,"w":94,"h":138},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
@@ -18,7 +18,7 @@
 },
 {
 	"filename": "card_color_green.png",
-	"frame": {"x":194,"y":33,"w":94,"h":138},
+	"frame": {"x":211,"y":33,"w":94,"h":138},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":138},
@@ -90,7 +90,7 @@
 },
 {
 	"filename": "card_spec_armor_heavy.png",
-	"frame": {"x":195,"y":2,"w":14,"h":12},
+	"frame": {"x":225,"y":2,"w":14,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
@@ -114,7 +114,7 @@
 },
 {
 	"filename": "card_spec_automatic.png",
-	"frame": {"x":211,"y":2,"w":14,"h":9},
+	"frame": {"x":241,"y":2,"w":14,"h":9},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":9},
@@ -130,7 +130,7 @@
 },
 {
 	"filename": "card_spec_blade.png",
-	"frame": {"x":227,"y":2,"w":14,"h":8},
+	"frame": {"x":257,"y":2,"w":14,"h":8},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":8},
@@ -138,7 +138,7 @@
 },
 {
 	"filename": "card_spec_bow.png",
-	"frame": {"x":243,"y":2,"w":14,"h":12},
+	"frame": {"x":273,"y":2,"w":14,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":12},
@@ -178,7 +178,7 @@
 },
 {
 	"filename": "card_spec_polearm.png",
-	"frame": {"x":291,"y":2,"w":15,"h":8},
+	"frame": {"x":2,"y":33,"w":15,"h":8},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":8},
@@ -186,7 +186,7 @@
 },
 {
 	"filename": "card_spec_shotgun.png",
-	"frame": {"x":259,"y":2,"w":14,"h":6},
+	"frame": {"x":289,"y":2,"w":14,"h":6},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":6},
@@ -194,7 +194,7 @@
 },
 {
 	"filename": "card_spec_sniper.png",
-	"frame": {"x":275,"y":2,"w":14,"h":8},
+	"frame": {"x":305,"y":2,"w":14,"h":8},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":8},
@@ -217,7 +217,7 @@
 	"sourceSize": {"w":13,"h":12}
 },
 {
-	"filename": "card_weapon_ability_autofire.png",
+	"filename": "card_weapon_ability_burst.png",
 	"frame": {"x":165,"y":2,"w":13,"h":12},
 	"rotated": false,
 	"trimmed": false,
@@ -225,8 +225,24 @@
 	"sourceSize": {"w":13,"h":12}
 },
 {
-	"filename": "card_weapon_ability_piercing.png",
+	"filename": "card_weapon_ability_parry.png",
 	"frame": {"x":180,"y":2,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
+	"sourceSize": {"w":13,"h":12}
+},
+{
+	"filename": "card_weapon_ability_piercing.png",
+	"frame": {"x":195,"y":2,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
+	"sourceSize": {"w":13,"h":12}
+},
+{
+	"filename": "card_weapon_ability_rend.png",
+	"frame": {"x":210,"y":2,"w":13,"h":12},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":12},
@@ -239,6 +255,6 @@
 	"format": "RGBA8888",
 	"size": {"w":327,"h":327},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:42921044df588481e73a8297b7b650a4:f963caf05372d2472425ca3be9250b97:f7cfd0855d8172e17bd2e25058d9a993$"
+	"smartupdate": "$TexturePacker:SmartUpdate:49873fdee781f97fcbc2497d8b193d92:dd8a47d5332e6138a319acf6a897a9c5:f7cfd0855d8172e17bd2e25058d9a993$"
 }
 }

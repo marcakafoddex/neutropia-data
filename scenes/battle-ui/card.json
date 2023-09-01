@@ -156,8 +156,8 @@
 					"visible": false,
 				},
 				{
-					"name": "AbilityAutoFire",
-					"file": "card_weapon_ability_autofire.png",
+					"name": "AbilityBurst",
+					"file": "card_weapon_ability_burst.png",
 					"anchor": [0, 0],
 					"visible": false,
 				},
@@ -168,16 +168,24 @@
 					"visible": false,
 				},
 				{
+					"name": "AbilityParry",
+					"file": "card_weapon_ability_parry.png",
+					"anchor": [0, 0],
+					"visible": false,
+				},
+				{
+					"name": "AbilityRend",
+					"file": "card_weapon_ability_rend.png",
+					"anchor": [0, 0],
+					"visible": false,
+				},
+				{
 					"name": "AbilitySlot0",
 					"pos": [0, 0],
 				},
 				{
 					"name": "AbilitySlot1",
 					"pos": [0, 14],
-				},
-				{
-					"name": "AbilitySlot2",
-					"pos": [0, 28],
 				},
 			],
 		},

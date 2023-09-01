@@ -396,8 +396,10 @@
                 <false/>
             </struct>
             <key type="filename">card_weapon_ability_akimbo.png</key>
-            <key type="filename">card_weapon_ability_autofire.png</key>
+            <key type="filename">card_weapon_ability_burst.png</key>
+            <key type="filename">card_weapon_ability_parry.png</key>
             <key type="filename">card_weapon_ability_piercing.png</key>
+            <key type="filename">card_weapon_ability_rend.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -446,8 +448,10 @@
                     <filename>card_spec_sniper.png</filename>
                     <filename>card_spec_spinner.png</filename>
                     <filename>card_weapon_ability_akimbo.png</filename>
-                    <filename>card_weapon_ability_autofire.png</filename>
                     <filename>card_weapon_ability_piercing.png</filename>
+                    <filename>card_weapon_ability_burst.png</filename>
+                    <filename>card_weapon_ability_parry.png</filename>
+                    <filename>card_weapon_ability_rend.png</filename>
                 </array>
             </struct>
         </map>
