@@ -19,7 +19,7 @@
 				},
 				"attack": {
 					"path": "data/textures/sequences/Maggot_attack_arX3.gif",
-					"loopCount": 4
+					"loopCount": 2
 				},
 				"struck": {
 					"path": "data/textures/sequences/Maggot_struck.png",
