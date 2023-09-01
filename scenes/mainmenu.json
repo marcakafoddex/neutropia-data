@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "Eye",
-					"file": "mainmenu_eye.gif",
+					"file": "mainmenu_eye.apng",
 					"pos": [34, 96, 1],
 					"anchor": [0, 0],
 				},
