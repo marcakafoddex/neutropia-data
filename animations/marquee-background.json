@@ -1,0 +1,13 @@
+{
+	"keyframes": [
+		{ "type": "scale", "time": 0.0, "value": [0,1,1] },
+		{ "type": "scale", "time": 0.10, "value": [640,1,1] },
+		{ "type": "scale", "time": 0.20, "value": [640,40,1] },
+		{ "type": "scale", "time": 1.00, "value": [640,40,1] },
+		
+		{ "type": "color", "time": 0.00, "value": [1, 1, 1, 0] },
+		{ "type": "color", "time": 0.15, "value": [1, 1, 1, 0.5] },
+		{ "type": "color", "time": 0.80, "value": [1, 1, 1, 0.5] },
+		{ "type": "color", "time": 1.00, "value": [1, 1, 1, 0] },
+	]
+}
