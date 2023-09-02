@@ -60,8 +60,23 @@
 			"anchor": [0.5, 0.5],
 		},
 		{
-			"name": "Defense",
+			"name": "DefenseLeft",
 			"pos": [-9, 4, 1],
+			"children": [
+				{
+					"file": "ui_defence_rating.png",
+				},
+				{
+					"name": "DefenseText",
+					"textValue": "Defense",
+					"textFont": "defense",
+					"z": 1,
+				}
+			]
+		},
+		{
+			"name": "DefenseRight",
+			"pos": [87, 4, 1],
 			"children": [
 				{
 					"file": "ui_defence_rating.png",
