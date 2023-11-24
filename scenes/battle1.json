@@ -3,7 +3,7 @@
 	"textureDirectory": "data/textures/scenes/battle1",
 	"entities": [
 		{
-			"file": "background.png",
+			"file": "battle_background_640x360.gif",
 			"anchor": [0, 0],
 			"z": -1,
 		},
