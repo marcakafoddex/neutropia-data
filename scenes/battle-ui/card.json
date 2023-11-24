@@ -249,8 +249,8 @@
 					"visible": false,
 				},
 				{
-					"name": "SpecPoleArm",
-					"file": "card_spec_polearm.png",
+					"name": "SpecPoker",
+					"file": "card_spec_poker.png",
 					"visible": false,
 				},
 				{
