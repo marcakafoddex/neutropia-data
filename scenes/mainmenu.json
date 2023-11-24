@@ -3,13 +3,22 @@
 	"textureDirectory": "data/textures/scenes/mainmenu",
 	"fonts": {
 		"menu": {
-			"path": "data/fonts/good timing bd 16.fnt",
+			"path": "data/fonts/LanaPixel.ttf",
 			"size": 13,
 			"scale": 1,
 			"topColor": "#fff",
 			"split" : 1,
 			"border": true,
 			"borderColor": "#000000",
+			"shadow": false,
+		},
+		"wishlist": {
+			"path": "data/fonts/LanaPixel.ttf",
+			"size": 13,
+			"scale": 1,
+			"topColor": "#fff",
+			"split" : 1,
+			"border": false,
 			"shadow": false,
 		},
 	},
@@ -33,6 +42,22 @@
 					"fileUpdater": ["holdLastFrame", 4.0],
 					"pos": [-90, -95, 1],
 					"anchor": [0, 0],
+				},
+				{
+					"file": "mainmenu_wishlist_icon.png",
+					"pos": [10, 350, 1],
+					"anchor": [0, 1],
+					"children": [
+						{
+							"textKey": "menu.wishlist_steam",
+							"textFont": "wishlist",
+							"textWrap": true,
+							"textMaxWidth": 80,
+							"textAlign": "left",
+							"pos": [55, -40, 1],
+							"anchor": [0, 0],
+						}
+					],
 				},
 				{
 					"name": "Flag",
