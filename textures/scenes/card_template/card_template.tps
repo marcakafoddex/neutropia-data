@@ -304,7 +304,7 @@
                 <false/>
             </struct>
             <key type="filename">card_spec_blade.png</key>
-            <key type="filename">card_spec_polearm.png</key>
+            <key type="filename">card_spec_poker.png</key>
             <key type="filename">card_spec_sniper.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -458,7 +458,6 @@
                     <filename>card_spec_crossbow.png</filename>
                     <filename>card_spec_dart.png</filename>
                     <filename>card_spec_pistol.png</filename>
-                    <filename>card_spec_polearm.png</filename>
                     <filename>card_spec_shotgun.png</filename>
                     <filename>card_spec_sniper.png</filename>
                     <filename>card_spec_spinner.png</filename>
@@ -468,6 +467,7 @@
                     <filename>card_weapon_ability_parry.png</filename>
                     <filename>card_weapon_ability_rend.png</filename>
                     <filename>card_spec_maggot.png</filename>
+                    <filename>card_spec_poker.png</filename>
                 </array>
             </struct>
         </map>

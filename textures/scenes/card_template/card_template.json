@@ -185,7 +185,7 @@
 	"sourceSize": {"w":9,"h":8}
 },
 {
-	"filename": "card_spec_polearm.png",
+	"filename": "card_spec_poker.png",
 	"frame": {"x":84,"y":2,"w":15,"h":8},
 	"rotated": false,
 	"trimmed": false,
@@ -263,6 +263,6 @@
 	"format": "RGBA8888",
 	"size": {"w":327,"h":327},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:5b1a99e2604ac8acde5030279fbab01d:b8a8d7cae6fe454f2239cae3fd21bcea:f7cfd0855d8172e17bd2e25058d9a993$"
+	"smartupdate": "$TexturePacker:SmartUpdate:8fc1a804b96e88092aad18dd4ed555bb:b8a8d7cae6fe454f2239cae3fd21bcea:f7cfd0855d8172e17bd2e25058d9a993$"
 }
 }
